@@ -1,0 +1,71 @@
+\chapter{Conclusão e Trabalhos Futuros} % (fold)
+\label{cha:conclus_o}
+
+\section{Conclusão} % (fold)
+\label{sec:conclus_o}
+
+Neste trabalho foi apresentada uma metodologia para o transporte e manipulação de objetos utilizando uma equipe de agentes heterogêneos, demonstrando um conjunto de técnicas capaz de tratar o problema de forma completa, desde o estudo de como movimentar os objetos, até a execução propriamente dita.
+Este se difere de outros trabalhos na literatura por tratar o planejamento do objeto como ponto de partida para os demais estágios durante a execução da tarefa.
+
+A metodologia trata do problema de transporte mediante o estudo e resolução de dois sub-problemas: (i) descrever uma sequência de posições válidas para os objetos, de modo a garantir sua chegada à posição final, e (ii) como utilizar os recursos robóticos disponíveis para realizar a manipulação dos objetos.
+%
+Afim de propor uma resolução para estes problemas, a técnica apresentada é dividida em três etapas principais: (i) planejamento de caminhos para os objetos -- na qual um plano de movimentação para os objetos a serem transportados é construído considerando os agentes disponíveis, (ii) planejamento e alocação de tarefas -- processo no qual a equipe de agentes planeja as trajetórias que devem ser executadas para transportar os objetos, além de entrarem em acordo sobre quais robôs são mais aptos para tais ações, e (iii) coordenação e execução -- fase final em que os agentes executam suas respectivas tarefas de forma sincronizada.
+
+Para considerar a heterogeneidade dos agentes utilizados para realizar o transporte dos objetos, os algoritmos de planejamento desenvolvidos neste trabalho fazem uso de uma função heurística que considera certas características destes agentes.
+Esta função, chamada de função de utilidade, pondera duas dimensões: (i) tempo de travessia -- que é o tempo médio de movimentação de um agente, e (ii) energia gasta -- tida como a estimativa de energia utilizada pelo agente para se mover.
+Com a utilização desta função como heurística, o sistema se torna flexível no sentido de que pode ser configurado para atender certas demandas, como o transporte no menor tempo possível ou poupando o máximo de energia, bastando a troca dos pesos que influenciam cada característica.
+Como demonstrado nos experimentos realizados, mediante a mudança dos pesos, planos diferentes são criados para atender à configuração criada.
+
+Ao considerar o planejamento do objeto como base estratégica utilizada nas demais etapas da técnica, certas questões foram estudadas durante o processo de desenvolvimento do sistema.
+%
+Por meio de diversos experimentos, foi demonstrado como a complexidade do ambiente de trabalho tem grande influência nos planos de transporte criados, pois o conjunto de obstáculos molda como o objeto deve se mover, de modo a evadi-los.
+%
+Outro ponto de influência para os planos é a disponibilidade de agentes para realização dos mesmos, no qual a ausência de certos tipos ou mesmo a quantidade de agentes presentes tornavam o processo mais rápido e/ou com menor custo total.
+%
+O estudo realizado considerando a penalização ou não da mudança de direção durante o transporte, demonstra que, apesar do aumento na distância percorrida pelo objeto, esta configuração proporciona um menor tempo e deslocamento por parte do agentes, provando ser artifício interessante de ser utilizado.
+
+O planejamento de caminhos dos agentes e posterior alocação de tarefas foram tratadas como etapas conjuntas, pois todo plano criado por um agente descreve como o mesmo pretende ajudar na performance total da missão, e se a escolha destes planos não for executada de forma precisa, todo o sistema terá seu rendimento prejudicado.
+%
+O algoritmo de alocação de tarefas desenvolvido funciona de forma descentralizada, fazendo uso de procedimentos de sincronização entre os agentes para atingir o consenso em relação às tarefas a serem executadas.
+Internamente, é utilizado o Algoritmo Húngaro para alocação das tarefas entre os agentes, sendo adaptado para o uso em um sistema distribuído.
+
+A etapa de execução e coordenação dos agentes para o transporte foi idealizada mediante a influência de algoritmos de redes de computadores, onde os robôs fazem uso dos chamados \emph{token}s para assinalar a sua permissão de transporte de um determinado objeto.
+Mediante o uso destas estratégias, foi possível a sincronização entre a equipe, onde cada membro só executaria sua tarefa se possuísse a respectiva autorização para o mesmo.
+%
+Além desta estratégia, foi desenvolvido um tipo de acordo entre agentes que tivessem planos de transporte cruzados, no qual o agente que possuir um menor plano de travessia, possui também menor prioridade durante o processo.
+
+% Os principais desafios encontrados durante o desenvolvimento da técnica aqui apresentada,
+
+Diversos desafios foram encontrados durante o desenvolvimento da técnica aqui apresentada, envolvendo principalmente o planejamento de caminhos dos objetos, pois as decisões aplicadas neste módulo regem todas as demais etapas.
+Questões como a definição das estratégias de desvio de obstáculos ou mesmo a aplicação de algoritmos de alocação de tarefas foram pontos que demandaram grande estudo para serem desempenhadas.
+
+\section{Trabalhos Futuros} % (fold)
+\label{sec:trabalhos_futuros}
+
+% section trabalhos_futuros (end)
+
+Este trabalho não é em sua totalidade um trabalho fechado, sendo passível de melhorias e refinamentos.
+%
+Uma importante adição ao sistema seria um módulo de exploração e mapeamento do ambiente de trabalho, proporcionando ao método um meio automático de descobrimento dos objetos a serem transportados, retirando a necessidade da criação manual do mapa para cada caso de estudo.
+Este módulo poderia ser implementado utilizando por exemplo um robô aéreo, que fazendo uso de uma câmera apontada para baixo, seria capaz de ter uma visão global do mapa e assim auxiliar os demais agentes terrestres durante a tarefa de transporte, promovendo uma nova forma de coordenação entre a equipe.
+
+Outra suposição que poderia ser desconsiderada está no fato da localização dos agentes e objetos ser conhecida durante todo o processo, não havendo qualquer tipo de incerteza neste parâmetro. Ao considerar que o sistema poderia ser utilizado em ambiente reais e de grandes dimensões, este pressuposto não condiz com tal realidade. Um passo neste sentido seria a complementação dos agentes com sensores capazes de detectar os objetos em conjunto com algoritmos de localização própria, de modo que cada agente, uma vez que encontrasse um determinado objeto, informasse aos demais sua localização e a estimativa de posição do item a ser transportado.
+Similar ao caso do mapeamento, um agente aéreo poderia contribuir nesta etapa, ficando à parte do sistema de transporte, informando ao time suas respectivas localizações.
+
+A colaboração entre os agentes também deve ser melhor explorada, por exemplo, no caso do transporte de objetos que demandam mais de um agente para a sua realização. Dessa forma, a etapa de alocação de tarefas deve ser modificada para associar possíveis segmentos a mais de um robô simultaneamente. Uma possível colaboração entre agentes robóticos e humanos também pode ser foco de futura investigação.
+
+Além destas melhorias, o sistema apresentado também não é capaz de lidar com a falha de um determinado agente durante a execução da tarefa, o que torna a tarefa de transporte impossibilitada de ser completada. A adição de métodos para tratamento deste tipo de situação seria um meio de tornar o método ainda mais robusto, considerando que, uma vez que um determinado agente pare de assinalar o seu pleno funcionamento, os demais integrantes da equipe deveriam recalcular seus planos de modo a realocar as tarefas e por fim concluir a missão de transporte fazendo uso dos robôs restantes.
+
+% A criação e aplicação de técnicas de exploração do ambiente de trabalho, proporcionariam ao método um meio automático de descobrimento dos objetos a serem transportado
+
+% principalmente relacionados ao tratamento de uma grande quantidade de objetos
+
+% Este trabalho não é em sua totalidade um trabalho fechado, portanto, algumas melhorias poderiam torná-lo mais interessante para utilização em casos reais, como: (i) criação e aplicação de técnicas de exploração do ambiente de trabalho, para elaboração de um mapa do mesmo, etapa que não abordada pelo presente pesquisa; (ii)
+
+
+% Desafios
+% Trabalhos futuros
+
+
+
+% chapter conclus_o (end)

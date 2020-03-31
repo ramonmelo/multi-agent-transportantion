@@ -1,0 +1,406 @@
+\documentclass{beamer}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+
+\title[]{Cooperative Transport of Objects using Heterogeneous Robots}
+\author[Ramon Soares de Melo]{
+Ramon Soares de Melo\\Douglas G. Macharet\\Mario Fernando Montenegro Campos
+}
+\institute[]
+{
+  Instituto de Ciências Exatas - ICEx\\
+  Laboratório de Visão Computacional e Robótica - VerLab\\
+  Universidade Federal de Minas Gerais
+}
+\date{2015}
+\subject{Computer Science}
+
+\begin{document}
+
+    \input{defs.tex}
+
+    \begin{frame}
+        \titlepage
+    \end{frame}
+
+    % \begin{frame}
+    %     \frametitle{Table of Contents}
+    %     \tableofcontents[currentsection]
+    % \end{frame}
+
+    % Aplicações do robots
+    % Transporte e manipulação
+    % Trabalhos relacionados
+    %
+
+    \section{Introduction} % (fold)
+    \label{sec:introdu_o}
+
+    % \frame{
+    %     \frametitle{Aplicações dos Robôs}
+
+    %     \begin{figure}[p]
+
+    %         \centering
+    %         \begin{subfigure}[b]{0.24\textwidth}
+    %             \includegraphics[width=\textwidth]{imgs/linha_montagem.jpg}
+    %             \caption*{Manufatura}
+    %         \end{subfigure}
+    %         \begin{subfigure}[b]{0.24\textwidth}
+    %             \includegraphics[width=\textwidth]{imgs/mapeamento.png}
+    %             \caption*{Mapeamento}
+    %         \end{subfigure}
+    %         \begin{subfigure}[b]{0.24\textwidth}
+    %             \includegraphics[width=\textwidth]{imgs/resgate.jpg}
+    %             \caption*{Resgate}
+    %         \end{subfigure}\\
+    %         \begin{subfigure}[b]{0.24\textwidth}
+    %             \includegraphics[width=\textwidth]{imgs/vigilancia.jpg}
+    %             \caption*{Vigilância}
+    %         \end{subfigure}
+    %         \begin{subfigure}[b]{0.24\textwidth}
+    %             \includegraphics[width=\textwidth]{imgs/transport.jpg}
+    %             \caption*{Transporte}
+    %         \end{subfigure}
+    %     \end{figure}
+    % }
+
+    % \frame{
+    %     \frametitle{Classificação quanto número de Agentes}
+
+    %     \begin{description}
+    %         \item[Único Agente] Caso no qual a missão é planejada e executada utilizando somente um agente, que deve ser capaz de realizá-la completamente e possuir todas as capacidades necessárias.
+
+    %         % somente um agente pode falhar, além do mesmo ter de ser muito complexo em alguns casos
+
+    %         \vspace{0.2cm}
+
+    %         \item[Multi-Agente] Sistema munido de vários agentes disponíveis para realizar a tarefa, podendo cada agente possuir diferentes recursos e capacidades.
+
+    %         % se um dos agentes falar, outros podem tomar o seu lugar e completar a missão
+
+    %     \end{description}
+    % }
+
+    % \frame{
+    %     \frametitle{Multi-Agentes}
+
+    %     \begin{description}
+    %         \item[Vantagens]
+    %         \begin{itemize}
+    %             \item Maior tolerância a falhas;
+    %             \item Podem reduzir o tempo total de execução da tarefa;
+    %             \item Executar tarefas complexas com agentes simples.
+    %         \end{itemize}
+    %         \vspace{0.5cm}
+    %         \item[Dificuldades]
+    %         \begin{itemize}
+    %             \item Planejamento de Caminhos;
+    %             \item Alocação de Tarefas;
+    %             \item Coordenação.
+    %         \end{itemize}
+    %     \end{description}
+    % }
+
+    \subsection{Motivation} % (fold)
+    \label{sub:motiva_o}
+
+    \frame{
+        \frametitle{Object Manipulation}
+
+        Transport and manipulation of objects is a basic task in other actions:
+
+        \begin{figure}[p]
+
+            \centering
+            \begin{subfigure}[b]{0.24\textwidth}
+                \includegraphics[width=\textwidth]{imgs/transporte1.png}
+                \caption*{Transport}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.24\textwidth}
+                \includegraphics[width=\textwidth]{imgs/transporte2.jpg}
+                \caption*{Construction}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.24\textwidth}
+                \includegraphics[width=\textwidth]{imgs/transporte3.jpg}
+                \caption*{Tools}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.24\textwidth}
+                \includegraphics[width=\textwidth]{imgs/transporte4.jpg}
+                \caption*{Household Usage}
+            \end{subfigure}
+
+        \end{figure}
+    }
+
+    % subsection motiva_o (end)
+
+    \subsection{Problem} % (fold)
+    \label{sub:problema}
+
+    \frame{
+        \frametitle{Problem Definition}
+
+        \begin{columns}[c]
+          \begin{column}{0.7\textwidth}
+
+            \textbf{Problem 1} \textit{Object Path Planning}
+            \vspace{0.2cm}\\
+            Find a feasible path inside the workspace to each object, starting from its initial position until a desired end position.
+
+          \end{column}
+          \begin{column}{0.3\textwidth}
+            \includegraphics[width=\textwidth]{imgs/MoveIntro_1.pdf}
+          \end{column}
+        \end{columns}
+
+        \begin{columns}[c]
+          \begin{column}{0.7\textwidth}
+
+            \textbf{Problem 2} \textit{Agents Coordination}
+            \vspace{0.2cm}\\
+            Allocate and Coordinate agents to accomplish each required path of the objects.
+
+
+          \end{column}
+          \begin{column}{0.3\textwidth}
+            \includegraphics[width=\textwidth]{imgs/MoveIntro_2.pdf}
+          \end{column}
+        \end{columns}
+
+
+        % \begin{quotation}
+        %     Seja \workspace\ uma área de trabalho definida como $\workspace \subset \environment$, são definidos os conjuntos: (i) \objectlist, possuindo os objetos a serem transportados, (ii) \obstaclelist, contendo obstáculos em \workspace\ e (iii) \robotlist, com todos os agentes disponíveis para a tarefa de transporte.
+        % \end{quotation}
+
+        % \begin{description}
+        %     \item[Problema 1] (Planejamento de Caminhos do Objeto) \emph{Dado o ambiente de trabalho \workspace, estudar e descrever uma sequência de poses válidas para os objetos em \objectset\ que garantam a chegada do mesmo à sua posição final desejada.}
+
+        %     \item[Problema 2] (Alocação de Tarefas e Coordenação de Agentes) \emph{Tendo como base os planos de manipulação dos objetos, gerar uma distribuição de tarefas entre os agentes disponíveis e coordená-los de modo que executem o transporte dos objetos.}
+        % \end{description}
+    }
+
+    % subsection problema (end)
+
+    % section introdu_o (end)
+
+    % \section{Trabalhos Relacionados} % (fold)
+    % \label{sec:trabalhos_relacionados}
+
+    % \frame{
+    %     \frametitle{Trabalhos Relacionados}
+
+    %     \begin{itemize}
+    %         \item CoMutaR: A framework for multi-robot coordination and task allocation \cite{Shiroma2009};
+    %         \item Optimal bid valuation using path finding for multi-robot task allocation \cite{Oeztuerk2014};
+    %         \item A Multi-robot Exploration Approach Based on Distributed Graph Coloring \cite{Carvalho2013};
+    %         \item A fast and frugal method for team-task allocation in a multi-robot transportation system \cite{Wawerla2010}.
+    %     \end{itemize}
+    % }
+
+    % section trabalhos_relacionados (end)
+
+    \section{Metodology} % (fold)
+    \label{sec:metodologia}
+
+    \frame{
+        \frametitle{Metodology}
+
+        \begin{figure}[p]
+            \centering
+            \includegraphics[width=\textwidth]{imgs/DiagramaGeral.pdf}
+            \caption*{Metodology Diagram}
+        \end{figure}
+    }
+
+    \frame{
+        \frametitle{Utility Function}
+
+        Quantifies the quality of a plan based on the energy and the drive time of a robot.
+        % Quantifica a qualidade de um plano considerando as dimensões: distância (\distancefunction), tempo (\timefunction) e energia (\energyfunction). Utilizada para comparar e selecionar os melhores planos para o transporte.
+
+        \begin{equation}
+            \utilityfunction(\currentstate, \robot{i}) = \beta \times \timefunction(\currentstate, \robot{i}) + \gamma \times \energyfunction(\currentstate, \robot{i}).
+            \label{eq:util_function}
+        \end{equation}
+
+        \begin{equation}
+            \utilityplanfunction(\planset) = \sum\limits_{i=1}^\plansetqt \utilityfunction(\plan{i})
+            \label{eq:plan_util_function}
+        \end{equation}
+
+        \let\thefootnote\relax\footnotetext{\currentstate: current state, \robot: robot, \planset: plan}
+    }
+
+    \frame{
+        \frametitle{Path Planning - Object}
+
+        \begin{columns}[c]
+
+            \begin{column}[c]{0.5\textwidth}
+                Planning for a object from set \objectset\ has two phases:
+
+                \begin{enumerate}
+                    \item \emph{Planning}: a travel plan is created;
+                    \vspace{0.2cm}
+                    \item \emph{Segmentation}: the plan is splitted into sub-plans.
+                \end{enumerate}
+            \end{column}
+
+            \begin{column}[c]{0.5\textwidth}
+                \begin{figure}[p]
+                    \centering
+                    \includegraphics[width=0.9\textwidth]{imgs/ObjectMovement.pdf}
+                    \caption*{Object Plan}
+                \end{figure}
+            \end{column}
+
+        \end{columns}
+
+        \let\thefootnote\relax\footnotetext{\originstate: initial state, \targetstate: end state}
+    }
+
+    \frame{
+        \frametitle{Path Planning - Agents}
+
+        \begin{columns}[c]
+
+            \begin{column}[c]{0.5\textwidth}
+
+                Based on segments created from the object's plan, for each agent \robot{i}, movimentation plans are created, of two types:
+
+                \begin{itemize}
+                    \item \emph{Preparation}: plan in which the robot approaches the object to be transported;
+                    \vspace{0.2cm}
+                    \item \emph{Transport}: plan used to transport the object.
+                \end{itemize}
+
+
+            \end{column}
+
+            \begin{column}[c]{0.5\textwidth}
+                \begin{figure}[p]
+                    \centering
+                    \includegraphics[width=0.9\textwidth]{imgs/RobotMovement.pdf}
+                    \caption*{Agent's Plan}
+                \end{figure}
+            \end{column}
+
+        \end{columns}
+    }
+
+    \frame{
+        \frametitle{Task Allocation}
+
+        \begin{columns}[c]
+
+            \begin{column}[c]{0.5\textwidth}
+
+                Task Allocation Process:
+
+                \begin{enumerate}
+                    \item Criação do grafo de alocação, contendo todos os planos de movimentação do agentes;
+                    \item Execução do algoritmo \emph{Kruskal} modificado, seguindo a ordem dos segmentos;
+                    \item Notificar os agentes quais planos devem ser executados.
+                \end{enumerate}
+
+            \end{column}
+
+            \begin{column}[c]{0.5\textwidth}
+
+                % \begin{figure}[p]
+                %     \centering
+                %     \includegraphics[width=\textwidth]{imgs/allocation_graph.pdf}
+                %     \caption*{Grafo de Alocação}
+                % \end{figure}
+            \end{column}
+
+        \end{columns}
+    }
+
+    \frame{
+        \frametitle{Coordenação}
+
+        Coordenação entre os agentes é feita mediante a troca de \emph{tokens}. São criados \emph{tokens} baseados nas regras:
+
+        \begin{enumerate}
+            \item Para cada segmento, são criados \emph{tokens} do tipo $<$preparação$>$;
+            \item É criado um \emph{token} do tipo $<$transporte$>$.
+        \end{enumerate}
+
+        \vspace{0.5cm}
+
+        Assim, somente um agente é capaz de realizar a etapa de transporte, enquanto os demais agentes podem realizar o passo de preparação.
+
+        Uma vez um segmento de transporte seja completado, o \emph{token} referente ao mesmo pode ser disponibilizado para outro agente.
+    }
+
+    % section metodologia (end)
+
+    \section{Experimentos} % (fold)
+    \label{sec:experimentos}
+
+    \frame{
+        \frametitle{Experimento}
+
+        \begin{figure}[p]
+            \centering
+            \includegraphics[width=0.75\textwidth]{imgs/experiment.pdf}
+        \end{figure}
+    }
+
+    % section experimentos (end)
+
+    \section{Conclusão} % (fold)
+    \label{sec:conclus_o}
+
+    \frame{
+        \frametitle{Conclusão}
+
+        Foi demonstrado uma técnica que contempla as etapas de planejamento, alocação de tarefas e coordenação dos agentes para realização da tarefa de transporte coopertativo utilizando uma equipe de robôs capaz de considerar dimensões de interesse neste tipo de tarefa.
+    }
+
+    % section conclus_o (end)
+
+    \section{Bibliografia} % (fold)
+    \label{sec:bibliografia}
+
+    \begin{frame}[allowframebreaks]
+        \frametitle{References}
+
+\nocite{Ahmadabadi2001}
+\nocite{Miyata2002}
+\nocite{Gerkey2002}
+\nocite{Sugar2002}
+\nocite{Song2002}
+\nocite{Tanner2003}
+\nocite{Yamashita2003}
+\nocite{Costa2007}
+\nocite{Zacharias2007}
+\nocite{Shiroma2009}
+\nocite{Ozturk2014}
+\nocite{Carvalho2013}
+\nocite{Fink2008}
+\nocite{Gerkey2001}
+\nocite{Kim2013}
+\nocite{Michael2011}
+\nocite{Sujit2013}
+\nocite{Tiganas2013}
+\nocite{Wawerla2010}
+
+        \bibliographystyle{amsalpha}
+        \footnotesize
+        \bibliography{references.bib}
+    \end{frame}
+
+    % section bibliografia (end)
+
+\end{document}

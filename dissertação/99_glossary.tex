@@ -1,0 +1,49 @@
+% Acronimos
+
+\newacro{mrs}{MRS}{\textit{Multi Robot System}}
+\newacro{srs}{SRS}{\textit{Single Robot System}}
+
+\newacro{mrsso}{MRS-SO}{\emph{Multi-Robot System - Single Object}}
+\newacro{mrsmo}{MRS-MO}{\emph{Multi-Robot System - Multi Object}}
+\newacro{srsso}{SRS-SO}{\emph{Single-Robot System - Single Object}}
+\newacro{srsmo}{SRS-MO}{\emph{Single-Robot System - Multi Object}}
+
+\newacro{forcec}{FeC}{Force Closure}
+\newacro{formc}{FmC}{Form Closure}
+\newacro{objc}{OC}{Object Closure}
+\newacro{condc}{CC}{Conditional Closure}
+
+% Simbolos
+\newsymb{workspace}{\workspace}{Ambiente de trabalho utilizado para realização do transporte de objetos}
+\newsymb{cell}{\wcell}{Célula que descreve uma posição do ambiente de trabalho \workspace}
+
+\newsymb{objectlist}{\objectset}{Conjunto de objetos a serem transportados}
+\newsymb{obstaclelist}{\obstacleset}{Conjunto de obstáculos dispostos em \workspace}
+\newsymb{robotlist}{\robotset}{Conjunto de robôs disponíveis para executar o transporte}
+
+% -- Função de Utilidade
+
+\newsymb{utilityf}{\utilityfunction}{Função de utilidade utilizada na comparação de planos}
+\newsymb{distancef}{\distancefunction}{Função de distância entre estados descritos no ambiente de trabalho \workspace. Utiliza a Distância de Manhattan}
+\newsymb{timef}{\timefunction}{Função que descreve a velocidade de movimentação de robô \robot{i} em \workspace}
+\newsymb{energyf}{\energyfunction}{Função que descreve a energia gasta por um agente \robot{i} durante sua movimentação}
+
+\newsymb{utililityplanf}{\utilityplanfunction}{Valor de utilidade de um plano}
+
+% -- Planejamento
+
+\newsymb{movementset}{\movementset}{Conjunto de ações que objetos e agentes conseguem realizar em \workspace}
+\newsymb{movementaction}{\movementaction}{Representa uma ação do conjunto \movementset}
+\newsymb{initialstate}{\robotinitialstatei{\robot{i}}}{Estado em \workspace\ que representa o estado inicial de um determinado robô \robot{i}}
+\newsymb{planset}{\planset}{Conjunto \planlist, representa um plano de movimentação}
+\newsymb{executionplanset}{\executionplanset}{Conjunto de planos \planset\ utilizados durante a missão de transporte}
+\newsymb{movementtypeset}{\movementtypeset}{Conjunto \movementtypelist\ de tipos que um plano é classificado, diferenciando os planos de preparação dos planos de execução, referente ao transporte do objeto}
+
+\newsymb{plan}{\plan{i}}{Estrutura que descreve informações sobre uma célula \wcell, além de dados relacionados a um plano \planset}
+
+\newsymb{plangraph}{\plangraph}{Grafo utilizado na busca e criação de um plano \planset\ de movimentação}
+\newsymb{fringe}{\fringe}{Lista de células \sy{cell} que estão na fronteira da exploração do algoritmo de planejamento de caminhos}
+
+\newsymb{segmentset}{\segmentset}{Conjunto de segmentos gerados a partir de um plano de movimentação}
+
+\newsymb{movementtype}{\movementtypeset}{Conjunto de tipos de planos gerados para os agentes}

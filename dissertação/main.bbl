@@ -1,0 +1,737 @@
+\begin{thebibliography}{}
+
+\bibitem[Adorno, 2011]{Adorno2011}
+\ppgccbibauthordoformat {Adorno, B.~V.} (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibbtitledoformat {Two-arm manipulation: From manipulators to
+  enhanced human-robot collaboration}.
+\newblock \ppgccbibphdstring {}, Universit{\'e} Montpellier II-Sciences et
+  Techniques du Languedoc.
+
+\bibitem[Adorno et~al.\@, 2010]{Adorno2010}
+\ppgccbibauthordoformat {Adorno, B.~V.\ppgccbibauthorsep {} Fraisse,
+  P.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Druon, S.}
+  (\ppgccyeardoformat {2010}).
+\newblock \ppgccbibtitledoformat {Dual position control strategies using the
+  cooperative dual task-space framework}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Intelligent Robots
+  and Systems (IROS), 2010 IEEE/RSJ International Conference on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {3955}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {3960}. IEEE.
+
+\bibitem[Ahmadabadi \ppgccciteauthorand {} Nakano, 2001]{Ahmadabadi2001}
+\ppgccbibauthordoformat {Ahmadabadi, M. \ppgccbibauthorand {} Nakano, E.}
+  (\ppgccyeardoformat {2001}).
+\newblock \ppgccbibtitledoformat {A "constrain and move" approach to
+  distributed object manipulation}.
+\newblock \ppgccbibjournaldoformat {IEEE Transactions on Robotics and
+  Automation}, \ppgccvolumedoformat {17}({\ppgccnumberdoformat
+  {2}}):\ppgccpagedoformat {157}--\ppgccpagedoformat {172}.
+
+\bibitem[Arleo et~al.\@, 2013]{Arleo2013}
+\ppgccbibauthordoformat {Arleo, G.\ppgccbibauthorsep {} Caccavale,
+  F.\ppgccbibauthorsep {} Muscio, G.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Pierri, F.} (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {Control of quadrotor aerial vehicles equipped
+  with a robotic arm}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Control \&
+  Automation (MED), 2013 21st Mediterranean Conference on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {1174}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {1180}. IEEE.
+
+\bibitem[Augugliaro et~al.\@, 2014]{Augugliaro2014}
+\ppgccbibauthordoformat {Augugliaro, F.\ppgccbibauthorsep {} Lupashin,
+  S.\ppgccbibauthorsep {} Hamer, M.\ppgccbibauthorsep {} Male,
+  C.\ppgccbibauthorsep {} Hehn, M.\ppgccbibauthorsep {} Mueller,
+  M.~W.\ppgccbibauthorsep {} Willmann, J.~S.\ppgccbibauthorsep {} Gramazio,
+  F.\ppgccbibauthorsep {} Kohler, M.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} D'Andrea, R.} (\ppgccyeardoformat {2014}).
+\newblock \ppgccbibtitledoformat {The flight assembled architecture
+  installation: Cooperative construction with flying machines}.
+\newblock \ppgccbibjournaldoformat {Control Systems, IEEE},
+  \ppgccvolumedoformat {34}({\ppgccnumberdoformat {4}}):\ppgccpagedoformat
+  {46}-\ppgccpagedoformat {}-\ppgccpagedoformat {64}.
+
+\bibitem[Baizid et~al.\@, 2014]{Baizid2014}
+\ppgccbibauthordoformat {Baizid, K.\ppgccbibauthorsep {} Caccavale,
+  F.\ppgccbibauthorsep {} Chiaverini, S.\ppgccbibauthorsep {} Giglio,
+  G.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Pierri, F.}
+  (\ppgccyeardoformat {2014}).
+\newblock \ppgccbibtitledoformat {Safety in coordinated control of multiple
+  unmanned aerial vehicle manipulator systems: Case of obstacle avoidance}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Control and
+  Automation (MED), 2014 22nd Mediterranean Conference of},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {1299}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {1304}. IEEE.
+
+\bibitem[Behrens et~al.\@, 2010]{Behrens2010}
+\ppgccbibauthordoformat {Behrens, M.\ppgccbibauthorsep {} Huang,
+  S.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Dissanayake, G.}
+  (\ppgccyeardoformat {2010}).
+\newblock \ppgccbibtitledoformat {Models for pushing objects with a mobile
+  robot using single point contact}.
+\newblock \ppgccbibpagesstring {} \ppgccpagedoformat {2964}--\ppgccpagedoformat
+  {2969}.
+
+\bibitem[Bernard et~al.\@, 2011]{Bernard2011}
+\ppgccbibauthordoformat {Bernard, M.\ppgccbibauthorsep {} Kondak,
+  K.\ppgccbibauthorsep {} Maza, I.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Ollero, A.} (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {Autonomous transportation and deployment with
+  aerial robots for search and rescue missions}.
+\newblock \ppgccbibjournaldoformat {Journal of Field Robotics},
+  \ppgccvolumedoformat {28}({\ppgccnumberdoformat {6}}):\ppgccpagedoformat
+  {914}-\ppgccpagedoformat {}-\ppgccpagedoformat {931}.
+
+\bibitem[Brooks, 1986]{Brooks1986}
+\ppgccbibauthordoformat {Brooks, R.~A.} (\ppgccyeardoformat {1986}).
+\newblock \ppgccbibtitledoformat {A robust layered control system for a mobile
+  robot}.
+\newblock \ppgccbibjournaldoformat {Robotics and Automation, IEEE Journal of},
+  \ppgccvolumedoformat {2}({\ppgccnumberdoformat {1}}):\ppgccpagedoformat
+  {14}-\ppgccpagedoformat {}-\ppgccpagedoformat {23}.
+
+\bibitem[Carvalho et~al.\@, 2013]{Carvalho2013}
+\ppgccbibauthordoformat {Carvalho, F.~F.\ppgccbibauthorsep {} Cavalcante,
+  R.~C.\ppgccbibauthorsep {} Vieira, M.~A.\ppgccbibauthorsep {} Chaimowicz,
+  L.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Campos, M.~F.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {A multi-robot exploration approach based on
+  distributed graph coloring}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Robotics Symposium
+  and Competition (LARS/LARC), 2013 Latin American}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {142}-\ppgccpagedoformat {}-\ppgccpagedoformat {147}.
+  IEEE.
+
+\bibitem[Casper \ppgccciteauthorand {} Murphy, 2003]{Casper2003}
+\ppgccbibauthordoformat {Casper, J. \ppgccbibauthorand {} Murphy, R.}
+  (\ppgccyeardoformat {2003}).
+\newblock \ppgccbibtitledoformat {Human-robot interactions during the
+  robot-assisted urban search and rescue response at the world trade center}.
+\newblock \ppgccbibjournaldoformat {IEEE Transactions on Systems, Man, and
+  Cybernetics, Part B: Cybernetics}, \ppgccvolumedoformat
+  {33}({\ppgccnumberdoformat {3}}):\ppgccpagedoformat {367}--\ppgccpagedoformat
+  {385}.
+
+\bibitem[da~Costa, 2012]{Costa2012}
+\ppgccbibauthordoformat {da~Costa, E. D.~S.} (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {Exploração e transporte cooperativo de
+  objetos em ambientes desconhecidos}.
+\newblock Mestrado, ICEx - Instituto de Ciências Exatas, UFMG - Universidade
+  Federal de Minas Gerais.
+
+\bibitem[dos Santos et~al.\@, 2013]{BarrosdosSantos2013}
+\ppgccbibauthordoformat {dos Santos, B. S.~R.\ppgccbibauthorsep {} Givigi,
+  S.~N.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Nascimento, C.~L.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {Autonomous construction of structures in a
+  dynamic environment using reinforcement learning}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Systems Conference
+  (SysCon), 2013 IEEE International}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {452}-\ppgccpagedoformat {}-\ppgccpagedoformat {459}.
+  IEEE.
+
+\bibitem[dos Santos et~al.\@, 2014]{BarrosdosSantos2014}
+\ppgccbibauthordoformat {dos Santos, B. S.~R.\ppgccbibauthorsep {} Givigi,
+  S.~N.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Nascimento, C.~L.}
+  (\ppgccyeardoformat {2014}).
+\newblock \ppgccbibtitledoformat {Autonomous construction of multiple
+  structures using learning automata: Description and experimental validation}.
+
+\bibitem[Emery \ppgccciteauthorand {} Balch, 2001]{Emery2001}
+\ppgccbibauthordoformat {Emery, R. \ppgccbibauthorand {} Balch, T.}
+  (\ppgccyeardoformat {2001}).
+\newblock \ppgccbibtitledoformat {Behavior-based control of a non-holonomic
+  robot in pushing tasks}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Robotics and
+  Automation, 2001. Proceedings 2001 ICRA. IEEE International Conference on},
+  volume~\ppgccvolumedoformat {3}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {2381 }--\ppgccpagedoformat { 2388 vol.3}.
+\newblock ISSN \ppgccissndoformat {1050-4729}.
+
+\bibitem[Eoh et~al.\@, 2011]{Eoh2011}
+\ppgccbibauthordoformat {Eoh, G.\ppgccbibauthorsep {} Jeon,
+  J.~D.\ppgccbibauthorsep {} Choi, J.~S.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Lee, B.~H.} (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {Multi-robot cooperative formation for
+  overweight object transportation}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {System Integration
+  (SII), 2011 IEEE/SICE International Symposium on}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {726}-\ppgccpagedoformat {}-\ppgccpagedoformat {731}.
+  IEEE.
+
+\bibitem[Farinelli et~al.\@, 2004]{Farinelli2004}
+\ppgccbibauthordoformat {Farinelli, A.\ppgccbibauthorsep {} Iocchi,
+  L.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Nardi, D.}
+  (\ppgccyeardoformat {2004}).
+\newblock \ppgccbibtitledoformat {Multirobot systems: a classification focused
+  on coordination}.
+\newblock \ppgccbibjournaldoformat {Systems, Man, and Cybernetics, Part B:
+  Cybernetics, IEEE Transactions on}, \ppgccvolumedoformat
+  {34}({\ppgccnumberdoformat {5}}):\ppgccpagedoformat {2015}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {2028}.
+
+\bibitem[Fink et~al.\@, 2008]{Fink2008}
+\ppgccbibauthordoformat {Fink, J.\ppgccbibauthorsep {} Ani~Hsieh,
+  M.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {Multi-robot manipulation via caging in
+  environments with obstacles}.
+\newblock \ppgccbibpagesstring {} \ppgccpagedoformat {1471}--\ppgccpagedoformat
+  {1476}.
+
+\bibitem[Gerkey \ppgccciteauthorand {} Matarić, 2002]{Gerkey2002}
+\ppgccbibauthordoformat {Gerkey, B. \ppgccbibauthorand {} Matarić, M.}
+  (\ppgccyeardoformat {2002}).
+\newblock \ppgccbibtitledoformat {Pusher-watcher: An approach to fault-tolerant
+  tightly-coupled robot coordination}.
+\newblock volume~\ppgccvolumedoformat {1}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {464}--\ppgccpagedoformat {469}.
+
+\bibitem[Gerkey \ppgccciteauthorand {} Matari{\'c}, 2001]{Gerkey2001}
+\ppgccbibauthordoformat {Gerkey, B.~P. \ppgccbibauthorand {} Matari{\'c},
+  M.~J.} (\ppgccyeardoformat {2001}).
+\newblock \ppgccbibtitledoformat {Principled communication for dynamic
+  multi-robot task allocation}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Experimental
+  Robotics VII}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {353}-\ppgccpagedoformat {}-\ppgccpagedoformat {362}. Springer.
+
+\bibitem[Ghosh et~al.\@, 2012]{Ghosh2012}
+\ppgccbibauthordoformat {Ghosh, A.\ppgccbibauthorsep {} Konar,
+  A.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Janarthanan, R.}
+  (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {Multi-robot cooperative box-pushing problem
+  using multi-objective particle swarm optimization technique}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Information and
+  Communication Technologies (WICT), 2012 World Congress on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {272}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {277}. IEEE.
+
+\bibitem[Goldsmith \ppgccciteauthorand {} Robinett~III, 1998]{Goldsmith1998}
+\ppgccbibauthordoformat {Goldsmith, S.~Y. \ppgccbibauthorand {} Robinett~III,
+  R.} (\ppgccyeardoformat {1998}).
+\newblock \ppgccbibtitledoformat {Collective search by mobile robots using
+  alpha-beta coordination}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Collective
+  robotics}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {135}-\ppgccpagedoformat {}-\ppgccpagedoformat {146}. Springer.
+
+\bibitem[Grocholsky et~al.\@, 2006]{Grocholsky2006}
+\ppgccbibauthordoformat {Grocholsky, B.\ppgccbibauthorsep {} Keller,
+  J.\ppgccbibauthorsep {} Kumar, V.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Pappas, G.} (\ppgccyeardoformat {2006}).
+\newblock \ppgccbibtitledoformat {Cooperative air and ground surveillance}.
+\newblock \ppgccbibjournaldoformat {IEEE Robotics and Automation Magazine},
+  \ppgccvolumedoformat {13}({\ppgccnumberdoformat {3}}):\ppgccpagedoformat
+  {16}--\ppgccpagedoformat {26}.
+
+\bibitem[Guizzo, 2008]{Guizzo2008}
+\ppgccbibauthordoformat {Guizzo, E.} (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {Three engineers, hundreds of robots, one
+  warehouse}.
+\newblock \ppgccbibjournaldoformat {IEEE spectrum}, \ppgccvolumedoformat
+  {7}({\ppgccnumberdoformat {45}}):\ppgccpagedoformat {26}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {34}.
+
+\bibitem[Hart et~al.\@, 1968]{Hart1968}
+\ppgccbibauthordoformat {Hart, P.~E.\ppgccbibauthorsep {} Nilsson,
+  N.~J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Raphael, B.}
+  (\ppgccyeardoformat {1968}).
+\newblock \ppgccbibtitledoformat {A formal basis for the heuristic
+  determination of minimum cost paths}.
+\newblock \ppgccbibjournaldoformat {Systems Science and Cybernetics, IEEE
+  Transactions on}, \ppgccvolumedoformat {4}({\ppgccnumberdoformat
+  {2}}):\ppgccpagedoformat {100}-\ppgccpagedoformat {}-\ppgccpagedoformat
+  {107}.
+
+\bibitem[Hekmatfar et~al.\@, 2014]{Hekmatfar2014}
+\ppgccbibauthordoformat {Hekmatfar, T.\ppgccbibauthorsep {} Masehian,
+  E.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Mousavi, S.~J.}
+  (\ppgccyeardoformat {2014}).
+\newblock \ppgccbibtitledoformat {Cooperative object transportation by multiple
+  mobile manipulators through a hierarchical planning architecture}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Robotics and
+  Mechatronics (ICRoM), 2014 Second RSI/ISM International Conference on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {503}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {508}. IEEE.
+
+\bibitem[Inoue et~al.\@, 2008]{Inoue2008}
+\ppgccbibauthordoformat {Inoue, R.\ppgccbibauthorsep {} Fujii,
+  N.\ppgccbibauthorsep {} Takano, R.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Ota, J.} (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {Rearrangement of multiple objects by a robot
+  group having a multi-task function}.
+\newblock \ppgccbibpagesstring {} \ppgccpagedoformat {2013}--\ppgccpagedoformat
+  {2018}.
+
+\bibitem[Inoue et~al.\@, 2011]{Inoue2011}
+\ppgccbibauthordoformat {Inoue, R.\ppgccbibauthorsep {} Fujii,
+  N.\ppgccbibauthorsep {} Takano, R.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Ota, J.} (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {Realization of a multiple object
+  rearrangement task with two multi-task functional robots}.
+\newblock \ppgccbibjournaldoformat {Advanced Robotics}, \ppgccvolumedoformat
+  {25}({\ppgccnumberdoformat {11}}):\ppgccpagedoformat
+  {1365}--\ppgccpagedoformat {1383}.
+
+\bibitem[Jiang \ppgccciteauthorand {} Kumar, 2013]{Jiang2013}
+\ppgccbibauthordoformat {Jiang, Q. \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {The inverse kinematics of cooperative
+  transport with multiple aerial robots}.
+\newblock \ppgccbibjournaldoformat {Robotics, IEEE Transactions on},
+  \ppgccvolumedoformat {29}({\ppgccnumberdoformat {1}}):\ppgccpagedoformat
+  {136}-\ppgccpagedoformat {}-\ppgccpagedoformat {145}.
+
+\bibitem[Kim et~al.\@, 2013]{Kim2013}
+\ppgccbibauthordoformat {Kim, S.\ppgccbibauthorsep {} Choi,
+  S.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kim, H.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {Aerial manipulation using a quadrotor with a
+  two dof robotic arm}.
+\newblock \ppgccbibpagesstring {} \ppgccpagedoformat {4990}--\ppgccpagedoformat
+  {4995}.
+
+\bibitem[Kube \ppgccciteauthorand {} Bonabeau, 2000]{Kube2000}
+\ppgccbibauthordoformat {Kube, C.~R. \ppgccbibauthorand {} Bonabeau, E.}
+  (\ppgccyeardoformat {2000}).
+\newblock \ppgccbibtitledoformat {Cooperative transport by ants and robots}.
+\newblock \ppgccbibjournaldoformat {Robotics and autonomous systems},
+  \ppgccvolumedoformat {30}({\ppgccnumberdoformat {1}}):\ppgccpagedoformat
+  {85}-\ppgccpagedoformat {}-\ppgccpagedoformat {101}.
+
+\bibitem[Kulatunga et~al.\@, 2006]{Kulatunga2006}
+\ppgccbibauthordoformat {Kulatunga, A.\ppgccbibauthorsep {} Liu,
+  D.\ppgccbibauthorsep {} Dissanayake, G.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Siyambalapitiya, S.} (\ppgccyeardoformat {2006}).
+\newblock \ppgccbibtitledoformat {Ant colony optimization based simultaneous
+  task allocation and path planning of autonomous vehicles}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Cybernetics and
+  Intelligent Systems, 2006 IEEE Conference on}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {1}-\ppgccpagedoformat {}-\ppgccpagedoformat {6}. IEEE.
+\newblock task allocation.
+
+\bibitem[LaValle, 2006]{LaValle2006}
+\ppgccbibauthordoformat {LaValle, S.~M.} (\ppgccyeardoformat {2006}).
+\newblock \ppgccbibbtitledoformat {Planning algorithms}.
+\newblock Cambridge university press.
+
+\bibitem[Lehman et~al.\@, 2008]{Lehman2008}
+\ppgccbibauthordoformat {Lehman, A.\ppgccbibauthorsep {} Berg,
+  K.\ppgccbibauthorsep {} Dumpert, J.\ppgccbibauthorsep {} Wood,
+  N.\ppgccbibauthorsep {} Visty, A.\ppgccbibauthorsep {} Rentschler,
+  M.\ppgccbibauthorsep {} Platt, S.\ppgccbibauthorsep {} Farritor,
+  S.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Oleynikov, D.}
+  (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {Surgery with cooperative robots}.
+\newblock \ppgccbibjournaldoformat {Computer Aided Surgery},
+  \ppgccvolumedoformat {13}({\ppgccnumberdoformat {2}}):\ppgccpagedoformat
+  {95}--\ppgccpagedoformat {105}.
+
+\bibitem[Lindsey et~al.\@, 2011]{Lindsey2011}
+\ppgccbibauthordoformat {Lindsey, Q.\ppgccbibauthorsep {} Mellinger,
+  D.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {Construction of cubic structures with
+  quadrotor teams}.
+\newblock \ppgccbibjournaldoformat {Proc. Robotics: Science \& Systems VII}.
+
+\bibitem[Lindsey et~al.\@, 2012]{Lindsey2012}
+\ppgccbibauthordoformat {Lindsey, Q.\ppgccbibauthorsep {} Mellinger,
+  D.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {Construction with quadrotor teams}.
+\newblock \ppgccbibjournaldoformat {Autonomous Robots}, \ppgccvolumedoformat
+  {33}({\ppgccnumberdoformat {3}}):\ppgccpagedoformat {323}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {336}.
+
+\bibitem[Lynch, 1996]{Lynch1996}
+\ppgccbibauthordoformat {Lynch, K.~M.} (\ppgccyeardoformat {1996}).
+\newblock \ppgccbibbtitledoformat {Nonprehensile robotic manipulation:
+  controllability and planning}.
+\newblock Carnegie Mellon University.
+
+\bibitem[Machado et~al.\@, 2013]{Machado2013}
+\ppgccbibauthordoformat {Machado, T.\ppgccbibauthorsep {} Malheiro,
+  T.\ppgccbibauthorsep {} Monteiro, S.\ppgccbibauthorsep {} Bicho,
+  E.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Erlhagen, W.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {Transportation of long objects in unknown
+  cluttered environments by a team of robots: A dynamical systems approach}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Industrial
+  Electronics (ISIE), 2013 IEEE International Symposium on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {1}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {6}. IEEE.
+
+\bibitem[Magariyama et~al.\@, 2014]{Magariyama2014}
+\ppgccbibauthordoformat {Magariyama, S.\ppgccbibauthorsep {} Matsumoto,
+  H.\ppgccbibauthorsep {} Ruiz, L.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Wang, Z.} (\ppgccyeardoformat {2014}).
+\newblock \ppgccbibtitledoformat {Estimation of a feasible dynamic caging zone
+  for multirobot object transportation}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Cyber Technology in
+  Automation, Control, and Intelligent Systems (CYBER), 2014 IEEE 4th Annual
+  International Conference on}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {508}-\ppgccpagedoformat {}-\ppgccpagedoformat {514}. IEEE.
+
+\bibitem[Maghsoud et~al.\@, 2014]{Maghsoud2014}
+\ppgccbibauthordoformat {Maghsoud, P.\ppgccbibauthorsep {} De~Silva,
+  C.~W.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Khan, M.~T.}
+  (\ppgccyeardoformat {2014}).
+\newblock \ppgccbibtitledoformat {Autonomous and cooperative multirobot system
+  for multi-object transportation}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Computer Science \&
+  Education (ICCSE), 2014 9th International Conference on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {211}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {217}. IEEE.
+
+\bibitem[Matari{\'c} et~al.\@, 1995]{Mataric1995}
+\ppgccbibauthordoformat {Matari{\'c}, M.~J.\ppgccbibauthorsep {} Nilsson,
+  M.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Simsarin, K.~T.}
+  (\ppgccyeardoformat {1995}).
+\newblock \ppgccbibtitledoformat {Cooperative multi-robot box-pushing}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Intelligent Robots
+  and Systems 95.'Human Robot Interaction and Cooperative Robots', Proceedings.
+  1995 IEEE/RSJ International Conference on}, volume~\ppgccvolumedoformat {3},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {556}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {561}. IEEE.
+
+\bibitem[Maza et~al.\@, 2010]{Maza2010}
+\ppgccbibauthordoformat {Maza, I.\ppgccbibauthorsep {} Kondak,
+  K.\ppgccbibauthorsep {} Bernard, M.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Ollero, A.} (\ppgccyeardoformat {2010}).
+\newblock \ppgccbibtitledoformat {Multi-uav cooperation and control for load
+  transportation and deployment}.
+\newblock \ppgccbibjournaldoformat {Journal of Intelligent and Robotic
+  Systems}, \ppgccvolumedoformat {57}({\ppgccnumberdoformat
+  {1-4}}):\ppgccpagedoformat {417}-\ppgccpagedoformat {}-\ppgccpagedoformat
+  {449}.
+
+\bibitem[Melo et~al.\@, 2015]{Melo2015}
+\ppgccbibauthordoformat {Melo, R.~S.\ppgccbibauthorsep {} Macharet,
+  D.~G.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Campos, M. F.~M.}
+  (\ppgccyeardoformat {2015}).
+\newblock \ppgccbibtitledoformat {Multi-object transportation using a mobile
+  robot}.
+\newblock \ppgccbibjournaldoformat {LARS 2015 12th Latin American Robotics
+  Symposium}.
+
+\bibitem[Meriçli et~al.\@, 2013]{Mericli2013}
+\ppgccbibauthordoformat {Meriçli, T.\ppgccbibauthorsep {} Veloso,
+  M.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Akin, H.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {Achievable push-manipulation for complex
+  passive mobile objects using past experience}.
+\newblock volume~\ppgccvolumedoformat {1}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {71}--\ppgccpagedoformat {78}.
+
+\bibitem[Michael et~al.\@, 2011]{Michael2011}
+\ppgccbibauthordoformat {Michael, N.\ppgccbibauthorsep {} Fink,
+  J.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {Cooperative manipulation and transportation
+  with aerial robots}.
+\newblock \ppgccbibjournaldoformat {Autonomous Robots}, \ppgccvolumedoformat
+  {30}({\ppgccnumberdoformat {1}}):\ppgccpagedoformat {73}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {86}.
+
+\bibitem[Miyata et~al.\@, 2002]{Miyata2002}
+\ppgccbibauthordoformat {Miyata, N.\ppgccbibauthorsep {} Ota,
+  J.\ppgccbibauthorsep {} Arai, T.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Asama, H.} (\ppgccyeardoformat {2002}).
+\newblock \ppgccbibtitledoformat {Cooperative transport by multiple mobile
+  robots in unknown static environments associated with real-time task
+  assignment}.
+\newblock \ppgccbibjournaldoformat {IEEE Transactions on Robotics and
+  Automation}, \ppgccvolumedoformat {18}({\ppgccnumberdoformat
+  {5}}):\ppgccpagedoformat {769}--\ppgccpagedoformat {780}.
+
+\bibitem[Montemayor \ppgccciteauthorand {} Wen, 2005]{Montemayor2005}
+\ppgccbibauthordoformat {Montemayor, G. \ppgccbibauthorand {} Wen, J.}
+  (\ppgccyeardoformat {2005}).
+\newblock \ppgccbibtitledoformat {Decentralized collaborative load transport by
+  multiple robots}.
+\newblock volume \ppgccvolumedoformat {2005}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {372}--\ppgccpagedoformat {377}.
+
+\bibitem[Munkres, 1957]{Munkres1957}
+\ppgccbibauthordoformat {Munkres, J.} (\ppgccyeardoformat {1957}).
+\newblock \ppgccbibtitledoformat {Algorithms for the assignment and
+  transportation problems}.
+\newblock \ppgccbibjournaldoformat {Journal of the Society for Industrial and
+  Applied Mathematics}, \ppgccvolumedoformat {5}({\ppgccnumberdoformat
+  {1}}):\ppgccpagedoformat {32}-\ppgccpagedoformat {}-\ppgccpagedoformat {38}.
+
+\bibitem[Murphy, 2004]{Murphy2004}
+\ppgccbibauthordoformat {Murphy, R.} (\ppgccyeardoformat {2004}).
+\newblock \ppgccbibtitledoformat {Human-robot interaction in rescue robotics}.
+\newblock \ppgccbibjournaldoformat {IEEE Transactions on Systems, Man and
+  Cybernetics Part C: Applications and Reviews}, \ppgccvolumedoformat
+  {34}({\ppgccnumberdoformat {2}}):\ppgccpagedoformat {138}--\ppgccpagedoformat
+  {153}.
+
+\bibitem[Murphy et~al.\@, 2009]{Murphy2009}
+\ppgccbibauthordoformat {Murphy, R.\ppgccbibauthorsep {} Kravitz,
+  J.\ppgccbibauthorsep {} Stover, S.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Shoureshi, R.} (\ppgccyeardoformat {2009}).
+\newblock \ppgccbibtitledoformat {Mobile robots in mine rescue and recovery}.
+\newblock \ppgccbibjournaldoformat {IEEE Robotics and Automation Magazine},
+  \ppgccvolumedoformat {16}({\ppgccnumberdoformat {2}}):\ppgccpagedoformat
+  {91}--\ppgccpagedoformat {103}.
+
+\bibitem[Murray et~al.\@, 1994]{murray1994}
+\ppgccbibauthordoformat {Murray, R.~M.\ppgccbibauthorsep {} Li,
+  Z.\ppgccbibauthorsep {} Sastry, S.~S.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Sastry, S.~S.} (\ppgccyeardoformat {1994}).
+\newblock \ppgccbibbtitledoformat {A mathematical introduction to robotic
+  manipulation}.
+\newblock CRC press.
+
+\bibitem[Nagai et~al.\@, 2011]{Nagai2011}
+\ppgccbibauthordoformat {Nagai, S.\ppgccbibauthorsep {} Kaneshige,
+  A.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Ueki, S.}
+  (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {Three-dimensional obstacle avoidance online
+  path-planning method for autonomous mobile overhead crane}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Mechatronics and
+  Automation (ICMA), 2011 International Conference on}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {1497}-\ppgccpagedoformat {}-\ppgccpagedoformat {1502}.
+  IEEE.
+
+\bibitem[Neumann et~al.\@, 2014]{Neumann2014}
+\ppgccbibauthordoformat {Neumann, M.~A.\ppgccbibauthorsep {} Chin,
+  M.~H.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kitts, C.~A.}
+  (\ppgccyeardoformat {2014}).
+\newblock \ppgccbibtitledoformat {Object manipulation through explicit force
+  control using cooperative mobile multi-robot systems}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  World Congress on Engineering and Computer Science},
+  volume~\ppgccvolumedoformat {1}.
+
+\bibitem[Orsag et~al.\@, 2013]{Orsag2013}
+\ppgccbibauthordoformat {Orsag, M.\ppgccbibauthorsep {} Korpela,
+  C.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Oh, P.} (\ppgccyeardoformat
+  {2013}).
+\newblock \ppgccbibtitledoformat {Modeling and control of mm-uav: Mobile
+  manipulating unmanned aerial vehicle}.
+\newblock \ppgccbibjournaldoformat {Journal of Intelligent \& Robotic Systems},
+  \ppgccvolumedoformat {69}({\ppgccnumberdoformat {1-4}}):\ppgccpagedoformat
+  {227}-\ppgccpagedoformat {}-\ppgccpagedoformat {240}.
+
+\bibitem[Parra-Gonz{\'a}lez et~al.\@, 2008]{Parra-Gonzalez2008}
+\ppgccbibauthordoformat {Parra-Gonz{\'a}lez, E.~F.\ppgccbibauthorsep {}
+  Ram{\'\i}rez-Torres, G.\ppgccbibauthorlastsep {} \ppgccbibauthorand {}
+  Toscano-Pulido, G.} (\ppgccyeardoformat {2008}).
+\newblock \ppgccbibtitledoformat {Motion planning for cooperative multi-robot
+  box-pushing problem}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Advances in
+  Artificial Intelligence--IBERAMIA 2008}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {382}-\ppgccpagedoformat {}-\ppgccpagedoformat {391}.
+  Springer.
+
+\bibitem[Parra-Gonzalez \ppgccciteauthorand {} Ram{\i}rez-Torres,
+  2011]{Parra-Gonzalez2011}
+\ppgccbibauthordoformat {Parra-Gonzalez, E.~F. \ppgccbibauthorand {}
+  Ram{\i}rez-Torres, J.~G.} (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {Object path planner for the box pushing
+  problem}.
+\newblock \ppgccbibjournaldoformat {Multi-Robot Systems, Trends and
+  Development, T. Yasuda, Editor}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {291}-\ppgccpagedoformat {}-\ppgccpagedoformat {306}.
+
+\bibitem[Parra-Gonzalez \ppgccciteauthorand {} Ramirez-Torres,
+  2012]{Parra-Gonzalez2012}
+\ppgccbibauthordoformat {Parra-Gonzalez, E.~F. \ppgccbibauthorand {}
+  Ramirez-Torres, J.~G.} (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {Grasp quality for the object transportation
+  by communities of mobile robots}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Electrical
+  Engineering, Computing Science and Automatic Control (CCE), 2012 9th
+  International Conference on}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {1}-\ppgccpagedoformat {}-\ppgccpagedoformat {6}. IEEE.
+
+\bibitem[Pereira et~al.\@, 2004]{Pereira2004}
+\ppgccbibauthordoformat {Pereira, G.\ppgccbibauthorsep {} Campos,
+  M.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2004}).
+\newblock \ppgccbibtitledoformat {Decentralized algorithms for multi-robot
+  manipulation via caging}.
+\newblock \ppgccbibjournaldoformat {International Journal of Robotics
+  Research}, \ppgccvolumedoformat {23}({\ppgccnumberdoformat
+  {7-8}}):\ppgccpagedoformat {783}--\ppgccpagedoformat {795}.
+
+\bibitem[Pounds et~al.\@, 2011]{Pounds2011}
+\ppgccbibauthordoformat {Pounds, P.~E.\ppgccbibauthorsep {} Bersak,
+  D.~R.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Dollar, A.~M.}
+  (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibtitledoformat {Grasping from the air: Hovering capture and
+  load stability}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Robotics and
+  Automation (ICRA), 2011 IEEE International Conference on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {2491}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {2498}. IEEE.
+
+\bibitem[Reif, 1979]{Reif1979}
+\ppgccbibauthordoformat {Reif, J.~H.} (\ppgccyeardoformat {1979}).
+\newblock \ppgccbibtitledoformat {Complexity of the mover’s problem and
+  generalizations extended abstract}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Proceedings of the
+  20th Annual IEEE Conference on Foundations of Computer Science},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {421}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {427}.
+
+\bibitem[Shiroma \ppgccciteauthorand {} Campos, 2009]{Shiroma2009}
+\ppgccbibauthordoformat {Shiroma, P. \ppgccbibauthorand {} Campos, M.}
+  (\ppgccyeardoformat {2009}).
+\newblock \ppgccbibtitledoformat {Comutar: A framework for multi-robot
+  coordination and task allocation}.
+\newblock \ppgccbibpagesstring {} \ppgccpagedoformat {4817}--\ppgccpagedoformat
+  {4824}.
+
+\bibitem[Siegwart et~al.\@, 2011]{Rol2011}
+\ppgccbibauthordoformat {Siegwart, R.\ppgccbibauthorsep {} Nourbakhsh,
+  I.~R.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Scaramuzza, D.}
+  (\ppgccyeardoformat {2011}).
+\newblock \ppgccbibbtitledoformat {Introduction to Autonomous Mobile Robots}.
+\newblock MIT Press, Cambridge, MA, USA, 2$^a$ \ppgccbibeditionstring {}.
+\newblock ISBN \ppgccissndoformat {0262015358}.
+
+\bibitem[Song \ppgccciteauthorand {} Kumar, 2002]{Song2002}
+\ppgccbibauthordoformat {Song, P. \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2002}).
+\newblock \ppgccbibtitledoformat {A potential field based approach to
+  multi-robot manipulation}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Robotics and
+  Automation, 2002. Proceedings. ICRA'02. IEEE International Conference on},
+  volume~\ppgccvolumedoformat {2}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {1217}-\ppgccpagedoformat {}-\ppgccpagedoformat {1222}. IEEE.
+
+\bibitem[Sugar \ppgccciteauthorand {} Kumar, 2002]{Sugar2002}
+\ppgccbibauthordoformat {Sugar, T. \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2002}).
+\newblock \ppgccbibtitledoformat {Control of cooperating mobile manipulators}.
+\newblock \ppgccbibjournaldoformat {IEEE Transactions on Robotics and
+  Automation}, \ppgccvolumedoformat {18}({\ppgccnumberdoformat
+  {1}}):\ppgccpagedoformat {94}--\ppgccpagedoformat {103}.
+
+\bibitem[Sujit \ppgccciteauthorand {} Saripalli, 2013]{Sujit2013}
+\ppgccbibauthordoformat {Sujit, P. \ppgccbibauthorand {} Saripalli, S.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {An empirical evaluation of co-ordination
+  strategies for an auv and uav}.
+\newblock \ppgccbibjournaldoformat {Journal of Intelligent and Robotic Systems:
+  Theory and Applications}, \ppgccvolumedoformat {70}({\ppgccnumberdoformat
+  {1-4}}):\ppgccpagedoformat {373}--\ppgccpagedoformat {384}.
+
+\bibitem[Tanner, 2007]{Tanner2007}
+\ppgccbibauthordoformat {Tanner, H.} (\ppgccyeardoformat {2007}).
+\newblock \ppgccbibtitledoformat {Switched uav-ugv cooperation scheme for
+  target detection}.
+\newblock \ppgccbibpagesstring {} \ppgccpagedoformat {3457}--\ppgccpagedoformat
+  {3462}.
+
+\bibitem[Tanner et~al.\@, 2003]{Tanner2003}
+\ppgccbibauthordoformat {Tanner, H.\ppgccbibauthorsep {} Loizou,
+  S.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kyriakopoulos, K.}
+  (\ppgccyeardoformat {2003}).
+\newblock \ppgccbibtitledoformat {Nonholonomic navigation and control of
+  cooperating mobile manipulators}.
+\newblock \ppgccbibjournaldoformat {IEEE Transactions on Robotics and
+  Automation}, \ppgccvolumedoformat {19}({\ppgccnumberdoformat
+  {1}}):\ppgccpagedoformat {53}--\ppgccpagedoformat {64}.
+
+\bibitem[Thomas et~al.\@, 2014]{Thomas2014}
+\ppgccbibauthordoformat {Thomas, J.\ppgccbibauthorsep {} Loianno,
+  G.\ppgccbibauthorsep {} Polin, J.\ppgccbibauthorsep {} Sreenath,
+  K.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2014}).
+\newblock \ppgccbibtitledoformat {Toward autonomous avian-inspired grasping for
+  micro aerial vehicles}.
+\newblock \ppgccbibjournaldoformat {Bioinspiration \& biomimetics},
+  \ppgccvolumedoformat {9}({\ppgccnumberdoformat {2}}):\ppgccpagedoformat
+  {025010}.
+
+\bibitem[Tiganas et~al.\@, 2013]{Tiganas2013}
+\ppgccbibauthordoformat {Tiganas, V.\ppgccbibauthorsep {} Kloetzer,
+  M.\ppgccbibauthorlastsep {} \ppgccbibauthorand {} Burlacu, A.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {Multi-robot based implementation for a sample
+  gathering problem}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {System Theory,
+  Control and Computing (ICSTCC), 2013 17th International Conference},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {545}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {550}. IEEE.
+
+\bibitem[Tokekar et~al.\@, 2013]{Tokekar2013}
+\ppgccbibauthordoformat {Tokekar, P.\ppgccbibauthorsep {} Vander~Hook,
+  J.\ppgccbibauthorsep {} Mulla, D.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Isler, V.} (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {Sensor planning for a symbiotic uav and ugv
+  system for precision agriculture}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Intelligent Robots
+  and Systems (IROS), 2013 IEEE/RSJ International Conference on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {5321}--\ppgccpagedoformat {5326}.
+\newblock ISSN \ppgccissndoformat {2153-0858}.
+
+\bibitem[Wada \ppgccciteauthorand {} Torii, 2013]{Wada2013}
+\ppgccbibauthordoformat {Wada, M. \ppgccbibauthorand {} Torii, R.}
+  (\ppgccyeardoformat {2013}).
+\newblock \ppgccbibtitledoformat {Cooperative transportation of a single object
+  by omnidirectional robots using potential method}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Advanced Robotics
+  (ICAR), 2013 16th International Conference on}, \ppgccbibpagesstring {}
+  \ppgccpagedoformat {1}-\ppgccpagedoformat {}-\ppgccpagedoformat {6}. IEEE.
+
+\bibitem[Wang et~al.\@, 2009]{Wang2009}
+\ppgccbibauthordoformat {Wang, J.\ppgccbibauthorsep {} Wang,
+  T.\ppgccbibauthorsep {} Wang, X.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Meng, X.} (\ppgccyeardoformat {2009}).
+\newblock \ppgccbibtitledoformat {Multi-robot decision making based on
+  coordination graphs}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Mechatronics and
+  Automation, 2009. ICMA 2009. International Conference on},
+  \ppgccbibpagesstring {} \ppgccpagedoformat {2393}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {2398}. IEEE.
+
+\bibitem[Wang \ppgccciteauthorand {} Kumar, 2002]{Wang2002}
+\ppgccbibauthordoformat {Wang, Z. \ppgccbibauthorand {} Kumar, V.}
+  (\ppgccyeardoformat {2002}).
+\newblock \ppgccbibtitledoformat {Object closure and manipulation by multiple
+  cooperating mobile robots}.
+\newblock \ppgccbibinstring {} \ppgccbibbooktitledoformat {Robotics and
+  Automation, 2002. Proceedings. ICRA'02. IEEE International Conference on},
+  volume~\ppgccvolumedoformat {1}, \ppgccbibpagesstring {} \ppgccpagedoformat
+  {394}-\ppgccpagedoformat {}-\ppgccpagedoformat {399}. IEEE.
+
+\bibitem[Wen \ppgccciteauthorand {} Kreutz-Delgado, 1992]{Wen1992}
+\ppgccbibauthordoformat {Wen, J.~T. \ppgccbibauthorand {} Kreutz-Delgado, K.}
+  (\ppgccyeardoformat {1992}).
+\newblock \ppgccbibtitledoformat {Motion and force control of multiple robotic
+  manipulators}.
+\newblock \ppgccbibjournaldoformat {Automatica}, \ppgccvolumedoformat
+  {28}({\ppgccnumberdoformat {4}}):\ppgccpagedoformat {729}-\ppgccpagedoformat
+  {}-\ppgccpagedoformat {743}.
+
+\bibitem[Willmann et~al.\@, 2012]{Willmann2012}
+\ppgccbibauthordoformat {Willmann, J.\ppgccbibauthorsep {} Augugliaro,
+  F.\ppgccbibauthorsep {} Cadalbert, T.\ppgccbibauthorsep {} D'Andrea,
+  R.\ppgccbibauthorsep {} Gramazio, F.\ppgccbibauthorlastsep {}
+  \ppgccbibauthorand {} Kohler, M.} (\ppgccyeardoformat {2012}).
+\newblock \ppgccbibtitledoformat {Aerial robotic construction towards a new
+  field of architectural research}.
+\newblock \ppgccbibjournaldoformat {International journal of architectural
+  computing}, \ppgccvolumedoformat {10}({\ppgccnumberdoformat
+  {3}}):\ppgccpagedoformat {439}-\ppgccpagedoformat {}-\ppgccpagedoformat
+  {460}.
+
+\bibitem[Yamashita et~al.\@, 2003]{Yamashita2003}
+\ppgccbibauthordoformat {Yamashita, A.\ppgccbibauthorsep {} Arai,
+  T.\ppgccbibauthorsep {} Ota, J.\ppgccbibauthorlastsep {} \ppgccbibauthorand
+  {} Asama, H.} (\ppgccyeardoformat {2003}).
+\newblock \ppgccbibtitledoformat {Motion planning of multiple mobile robots for
+  cooperative manipulation and transportation}.
+\newblock \ppgccbibjournaldoformat {IEEE Transactions on Robotics and
+  Automation}, \ppgccvolumedoformat {19}({\ppgccnumberdoformat
+  {2}}):\ppgccpagedoformat {223}--\ppgccpagedoformat {237}.
+
+\end{thebibliography}

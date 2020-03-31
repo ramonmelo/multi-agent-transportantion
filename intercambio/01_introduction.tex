@@ -1,0 +1,36 @@
+\section{INTRODUCTION}
+\label{sec:introduction}
+
+% Intro
+
+% The use of mobile robots in many different contexts and applications has increased significantly in recent years. It is notorious the use of these autonomous systems in activities such as surveillance, search and rescue, object transportation, among others.
+
+The use of autonomous robot systems can be seen in many scenarios, besides the industrial use, where were first employed, mainly on object manipulation and building of items in assembly lines (\cite{Rol2011}), is notorious the use of these autonomous systems in other activities like surveillance and regions recognition (\cite{Tanner2007, Sujit2013}), search and rescue (\cite{Casper2003, Murphy2004}), mapping (\cite{Tokekar2013}), detection and tracking (\cite{Grocholsky2006}), transport of objects (\cite{Michael2011, Fink2008}), among others.
+
+All aforementioned activities can be executed both individually as well collaboratively, in this case called Multi-Robot Systems (\mrs).
+The use of multiple robots presents several advantages like increased robustness and, in most cases, time reduction to accomplish a task. However, the use of such systems also brings many challenges, such as robot localization, path planning, task allocation and control.
+
+The accomplishment of any task using a \mrs\ involves many subproblems that must be considered.
+Among these problems, we can highlight the localization of the robots, path planning, coordination and the task allocation.
+The localization problem is related with agent itself as well the environment where the robots are working and any other object that they interact.
+The path planning problem can be addressed in many ways, in some cases to minimize the total time spent or the overall traveled distance for example.
+Regarding the team coordination, that involves task allocation among the agents, as well a study of how combine the available resources to accomplish the activity respecting all possible restrictions.
+
+% ArduPilot, MAVLink
+
+Each agent in a \mrs\ have its own capabilities and resources, that can be shared among the other agents of the team.
+These resources can be the locomotion type of the vehicle, a set of sensors, or the payload among others.
+A team of agents should be able to share and explore these resources to complete satisfactorily one particular mission.
+
+One of the platforms that has come into common use for the creation of autonomous agents is called ArduPilot (APM), whose main goal is to be an autopilot system to carry out autonomous missions, responsible for low-level control of different kinds of vehicles, such as the terrestrial ackerman model or flying with multiple rotor and fixed wing.
+
+Similar to other platforms for autonomous control, the APM system uses the Micro Air Vehicle Communication Protocol (MAVLink) that describes a specification for data exchange between the vehicle and a base station.
+It's able to transfer telemetry information such as data from sensors (GPS, barometer, magnetometer) or send missions to the agent.
+
+Using this toolkit, a vehicle controlled by an auto pilot and having communication with a base station, can perform activities like scanning and capturing images of a particular area, carrying out autonomous missions in a consistent and easily configurable way.
+
+% Description
+
+The project presented here was developed during the interchange period occurred at the University of Santiago de Chile (USACH) between April and May of 2015, together with the tutor Arturo César Alvarez Cea, which has developed a base system for communication and control agents using MAVLink protocol.
+
+% section introduction (end)

@@ -1,0 +1,930 @@
+\ifglsentryexists{mrs}{}%
+{%
+\gls@defglossaryentry{mrs}%
+{%
+name={MRS},%
+sort={MRS},%
+type={acro},%
+first={MRS},%
+firstplural={MRSs},%
+text={MRS},%
+plural={MRSs},%
+description={\textit {Multi Robot System}},%
+descriptionplural={\textit {Multi Robot System}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{srs}{}%
+{%
+\gls@defglossaryentry{srs}%
+{%
+name={SRS},%
+sort={SRS},%
+type={acro},%
+first={SRS},%
+firstplural={SRSs},%
+text={SRS},%
+plural={SRSs},%
+description={\textit {Single Robot System}},%
+descriptionplural={\textit {Single Robot System}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mrsso}{}%
+{%
+\gls@defglossaryentry{mrsso}%
+{%
+name={MRS-SO},%
+sort={MRS-SO},%
+type={acro},%
+first={MRS-SO},%
+firstplural={MRS-SOs},%
+text={MRS-SO},%
+plural={MRS-SOs},%
+description={\emph {Multi-Robot System - Single Object}},%
+descriptionplural={\emph {Multi-Robot System - Single Object}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mrsmo}{}%
+{%
+\gls@defglossaryentry{mrsmo}%
+{%
+name={MRS-MO},%
+sort={MRS-MO},%
+type={acro},%
+first={MRS-MO},%
+firstplural={MRS-MOs},%
+text={MRS-MO},%
+plural={MRS-MOs},%
+description={\emph {Multi-Robot System - Multi Object}},%
+descriptionplural={\emph {Multi-Robot System - Multi Object}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{srsso}{}%
+{%
+\gls@defglossaryentry{srsso}%
+{%
+name={SRS-SO},%
+sort={SRS-SO},%
+type={acro},%
+first={SRS-SO},%
+firstplural={SRS-SOs},%
+text={SRS-SO},%
+plural={SRS-SOs},%
+description={\emph {Single-Robot System - Single Object}},%
+descriptionplural={\emph {Single-Robot System - Single Object}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{srsmo}{}%
+{%
+\gls@defglossaryentry{srsmo}%
+{%
+name={SRS-MO},%
+sort={SRS-MO},%
+type={acro},%
+first={SRS-MO},%
+firstplural={SRS-MOs},%
+text={SRS-MO},%
+plural={SRS-MOs},%
+description={\emph {Single-Robot System - Multi Object}},%
+descriptionplural={\emph {Single-Robot System - Multi Object}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{forcec}{}%
+{%
+\gls@defglossaryentry{forcec}%
+{%
+name={FeC},%
+sort={FeC},%
+type={acro},%
+first={FeC},%
+firstplural={FeCs},%
+text={FeC},%
+plural={FeCs},%
+description={Force Closure},%
+descriptionplural={Force Closure},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{formc}{}%
+{%
+\gls@defglossaryentry{formc}%
+{%
+name={FmC},%
+sort={FmC},%
+type={acro},%
+first={FmC},%
+firstplural={FmCs},%
+text={FmC},%
+plural={FmCs},%
+description={Form Closure},%
+descriptionplural={Form Closure},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{objc}{}%
+{%
+\gls@defglossaryentry{objc}%
+{%
+name={OC},%
+sort={OC},%
+type={acro},%
+first={OC},%
+firstplural={OCs},%
+text={OC},%
+plural={OCs},%
+description={Object Closure},%
+descriptionplural={Object Closure},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{condc}{}%
+{%
+\gls@defglossaryentry{condc}%
+{%
+name={CC},%
+sort={CC},%
+type={acro},%
+first={CC},%
+firstplural={CCs},%
+text={CC},%
+plural={CCs},%
+description={Conditional Closure},%
+descriptionplural={Conditional Closure},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{workspace}{}%
+{%
+\gls@defglossaryentry{workspace}%
+{%
+name={\workspace },%
+sort={\workspace },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {W}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {W}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {W}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {W}}}s},%
+description={Ambiente de trabalho utilizado para realização do transporte de objetos},%
+descriptionplural={Ambiente de trabalho utilizado para realização do transporte de objetos},%
+symbol={\workspace },%
+symbolplural={\workspace },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cell}{}%
+{%
+\gls@defglossaryentry{cell}%
+{%
+name={\wcell },%
+sort={\wcell },%
+type={symb},%
+first={\protect \ensuremath {\protect \mathtt {c}}},%
+firstplural={\protect \ensuremath {\protect \mathtt {c}}s},%
+text={\protect \ensuremath {\protect \mathtt {c}}},%
+plural={\protect \ensuremath {\protect \mathtt {c}}s},%
+description={Célula que descreve uma posição do ambiente de trabalho \workspace },%
+descriptionplural={Célula que descreve uma posição do ambiente de trabalho \workspace },%
+symbol={\wcell },%
+symbolplural={\wcell },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{objectlist}{}%
+{%
+\gls@defglossaryentry{objectlist}%
+{%
+name={\objectset },%
+sort={\objectset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {O}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {O}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {O}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {O}}}s},%
+description={Conjunto de objetos a serem transportados},%
+descriptionplural={Conjunto de objetos a serem transportados},%
+symbol={\objectset },%
+symbolplural={\objectset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{obstaclelist}{}%
+{%
+\gls@defglossaryentry{obstaclelist}%
+{%
+name={\obstacleset },%
+sort={\obstacleset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {B}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {B}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {B}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {B}}}s},%
+description={Conjunto de obstáculos dispostos em \workspace },%
+descriptionplural={Conjunto de obstáculos dispostos em \workspace },%
+symbol={\obstacleset },%
+symbolplural={\obstacleset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{robotlist}{}%
+{%
+\gls@defglossaryentry{robotlist}%
+{%
+name={\robotset },%
+sort={\robotset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {R}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {R}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {R}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {R}}}s},%
+description={Conjunto de robôs disponíveis para executar o transporte},%
+descriptionplural={Conjunto de robôs disponíveis para executar o transporte},%
+symbol={\robotset },%
+symbolplural={\robotset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{utilityf}{}%
+{%
+\gls@defglossaryentry{utilityf}%
+{%
+name={\utilityfunction },%
+sort={\utilityfunction },%
+type={symb},%
+first={\protect \ensuremath {\Theta }},%
+firstplural={\protect \ensuremath {\Theta }s},%
+text={\protect \ensuremath {\Theta }},%
+plural={\protect \ensuremath {\Theta }s},%
+description={Função de utilidade utilizada na comparação de planos},%
+descriptionplural={Função de utilidade utilizada na comparação de planos},%
+symbol={\utilityfunction },%
+symbolplural={\utilityfunction },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{distancef}{}%
+{%
+\gls@defglossaryentry{distancef}%
+{%
+name={\distancefunction },%
+sort={\distancefunction },%
+type={symb},%
+first={\protect \ensuremath {\Delta }},%
+firstplural={\protect \ensuremath {\Delta }s},%
+text={\protect \ensuremath {\Delta }},%
+plural={\protect \ensuremath {\Delta }s},%
+description={Função de distância entre estados descritos no ambiente de trabalho \workspace . Utiliza a Distância de Manhattan},%
+descriptionplural={Função de distância entre estados descritos no ambiente de trabalho \workspace . Utiliza a Distância de Manhattan},%
+symbol={\distancefunction },%
+symbolplural={\distancefunction },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{timef}{}%
+{%
+\gls@defglossaryentry{timef}%
+{%
+name={\timefunction },%
+sort={\timefunction },%
+type={symb},%
+first={\protect \ensuremath {\Upsilon }},%
+firstplural={\protect \ensuremath {\Upsilon }s},%
+text={\protect \ensuremath {\Upsilon }},%
+plural={\protect \ensuremath {\Upsilon }s},%
+description={Função que descreve a velocidade de movimentação de robô \robot {i} em \workspace },%
+descriptionplural={Função que descreve a velocidade de movimentação de robô \robot {i} em \workspace },%
+symbol={\timefunction },%
+symbolplural={\timefunction },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{energyf}{}%
+{%
+\gls@defglossaryentry{energyf}%
+{%
+name={\energyfunction },%
+sort={\energyfunction },%
+type={symb},%
+first={\protect \ensuremath {\Psi }},%
+firstplural={\protect \ensuremath {\Psi }s},%
+text={\protect \ensuremath {\Psi }},%
+plural={\protect \ensuremath {\Psi }s},%
+description={Função que descreve a energia gasta por um agente \robot {i} durante sua movimentação},%
+descriptionplural={Função que descreve a energia gasta por um agente \robot {i} durante sua movimentação},%
+symbol={\energyfunction },%
+symbolplural={\energyfunction },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{utililityplanf}{}%
+{%
+\gls@defglossaryentry{utililityplanf}%
+{%
+name={\utilityplanfunction },%
+sort={\utilityplanfunction },%
+type={symb},%
+first={\protect \ensuremath {\protect \ensuremath {\Theta }_{p}}},%
+firstplural={\protect \ensuremath {\protect \ensuremath {\Theta }_{p}}s},%
+text={\protect \ensuremath {\protect \ensuremath {\Theta }_{p}}},%
+plural={\protect \ensuremath {\protect \ensuremath {\Theta }_{p}}s},%
+description={Valor de utilidade de um plano},%
+descriptionplural={Valor de utilidade de um plano},%
+symbol={\utilityplanfunction },%
+symbolplural={\utilityplanfunction },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{movementset}{}%
+{%
+\gls@defglossaryentry{movementset}%
+{%
+name={\movementset },%
+sort={\movementset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {M}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {M}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {M}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {M}}}s},%
+description={Conjunto de ações que objetos e agentes conseguem realizar em \workspace },%
+descriptionplural={Conjunto de ações que objetos e agentes conseguem realizar em \workspace },%
+symbol={\movementset },%
+symbolplural={\movementset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{movementaction}{}%
+{%
+\gls@defglossaryentry{movementaction}%
+{%
+name={\movementaction },%
+sort={\movementaction },%
+type={symb},%
+first={\protect \ensuremath {a_i}},%
+firstplural={\protect \ensuremath {a_i}s},%
+text={\protect \ensuremath {a_i}},%
+plural={\protect \ensuremath {a_i}s},%
+description={Representa uma ação do conjunto \movementset },%
+descriptionplural={Representa uma ação do conjunto \movementset },%
+symbol={\movementaction },%
+symbolplural={\movementaction },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{initialstate}{}%
+{%
+\gls@defglossaryentry{initialstate}%
+{%
+name={\robotinitialstatei {\robot {i}}},%
+sort={\robotinitialstatei {\robot {i}}},%
+type={symb},%
+first={\protect \ensuremath {I_{\protect \ensuremath {r_{i}}}}},%
+firstplural={\protect \ensuremath {I_{\protect \ensuremath {r_{i}}}}s},%
+text={\protect \ensuremath {I_{\protect \ensuremath {r_{i}}}}},%
+plural={\protect \ensuremath {I_{\protect \ensuremath {r_{i}}}}s},%
+description={Estado em \workspace \ que representa o estado inicial de um determinado robô \robot {i}},%
+descriptionplural={Estado em \workspace \ que representa o estado inicial de um determinado robô \robot {i}},%
+symbol={\robotinitialstatei {\robot {i}}},%
+symbolplural={\robotinitialstatei {\robot {i}}},%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{planset}{}%
+{%
+\gls@defglossaryentry{planset}%
+{%
+name={\planset },%
+sort={\planset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P}}}s},%
+description={Conjunto \planlist , representa um plano de movimentação},%
+descriptionplural={Conjunto \planlist , representa um plano de movimentação},%
+symbol={\planset },%
+symbolplural={\planset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{executionplanset}{}%
+{%
+\gls@defglossaryentry{executionplanset}%
+{%
+name={\executionplanset },%
+sort={\executionplanset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P_E}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P_E}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P_E}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P_E}}}s},%
+description={Conjunto de planos \planset \ utilizados durante a missão de transporte},%
+descriptionplural={Conjunto de planos \planset \ utilizados durante a missão de transporte},%
+symbol={\executionplanset },%
+symbolplural={\executionplanset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{movementtypeset}{}%
+{%
+\gls@defglossaryentry{movementtypeset}%
+{%
+name={\movementtypeset },%
+sort={\movementtypeset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {T_{M}}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {T_{M}}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {T_{M}}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {T_{M}}}}s},%
+description={Conjunto \movementtypelist \ de tipos que um plano é classificado, diferenciando os planos de preparação dos planos de execução, referente ao transporte do objeto},%
+descriptionplural={Conjunto \movementtypelist \ de tipos que um plano é classificado, diferenciando os planos de preparação dos planos de execução, referente ao transporte do objeto},%
+symbol={\movementtypeset },%
+symbolplural={\movementtypeset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{plan}{}%
+{%
+\gls@defglossaryentry{plan}%
+{%
+name={\plan {i}},%
+sort={\plan {i}},%
+type={symb},%
+first={\protect \ensuremath {\protect \ensuremath {S}_{i}}},%
+firstplural={\protect \ensuremath {\protect \ensuremath {S}_{i}}s},%
+text={\protect \ensuremath {\protect \ensuremath {S}_{i}}},%
+plural={\protect \ensuremath {\protect \ensuremath {S}_{i}}s},%
+description={Estrutura que descreve informações sobre uma célula \wcell , além de dados relacionados a um plano \planset },%
+descriptionplural={Estrutura que descreve informações sobre uma célula \wcell , além de dados relacionados a um plano \planset },%
+symbol={\plan {i}},%
+symbolplural={\plan {i}},%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{plangraph}{}%
+{%
+\gls@defglossaryentry{plangraph}%
+{%
+name={\plangraph },%
+sort={\plangraph },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P_G}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P_G}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P_G}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {P_G}}}s},%
+description={Grafo utilizado na busca e criação de um plano \planset \ de movimentação},%
+descriptionplural={Grafo utilizado na busca e criação de um plano \planset \ de movimentação},%
+symbol={\plangraph },%
+symbolplural={\plangraph },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fringe}{}%
+{%
+\gls@defglossaryentry{fringe}%
+{%
+name={\fringe },%
+sort={\fringe },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {F}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {F}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {F}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {F}}}s},%
+description={Lista de células \sy {cell} que estão na fronteira da exploração do algoritmo de planejamento de caminhos},%
+descriptionplural={Lista de células \sy {cell} que estão na fronteira da exploração do algoritmo de planejamento de caminhos},%
+symbol={\fringe },%
+symbolplural={\fringe },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{segmentset}{}%
+{%
+\gls@defglossaryentry{segmentset}%
+{%
+name={\segmentset },%
+sort={\segmentset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {S}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {S}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {S}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {S}}}s},%
+description={Conjunto de segmentos gerados a partir de um plano de movimentação},%
+descriptionplural={Conjunto de segmentos gerados a partir de um plano de movimentação},%
+symbol={\segmentset },%
+symbolplural={\segmentset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{movementtype}{}%
+{%
+\gls@defglossaryentry{movementtype}%
+{%
+name={\movementtypeset },%
+sort={\movementtypeset },%
+type={symb},%
+first={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {T_{M}}}}},%
+firstplural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {T_{M}}}}s},%
+text={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {T_{M}}}}},%
+plural={\protect \ensuremath {\protect \boldsymbol {\protect \mathcal {T_{M}}}}s},%
+description={Conjunto de tipos de planos gerados para os agentes},%
+descriptionplural={Conjunto de tipos de planos gerados para os agentes},%
+symbol={\movementtypeset },%
+symbolplural={\movementtypeset },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

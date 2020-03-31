@@ -1,0 +1,29 @@
+\newcommand{\gl}[1]{\gls{#1}}
+\newcommand{\sy}[1]{\glssymbol{#1}}
+\newcommand{\de}[1]{\glsdesc{#1}}
+
+\newcommand{\newacro}[3]{\newglossaryentry{#1}{type=acro,name={#2},description={#3}}}
+\newcommand{\newsymb}[3]{\newglossaryentry{#1}{type=symb,symbol={#2},name={#2},description={#3}}}
+\newcommand{\newsymbh}[3]{\newglossaryentry{#1}{type=symbh,symbol={#2},name={#2},description={#3}}}
+
+\renewcommand{\listalgorithmname}{Lista de Algoritmos}
+
+% Image Commands
+
+\newcommand{\img}[2]{
+  \includegraphics[width=#2]{img/#1}
+}
+
+% \imgosize{#1}{#2}
+\newcommand{\fig}[3]{
+\begin{figure}[htpb]
+\centering
+\setlength{\fboxsep}{0pt}
+#2
+\caption{#3}
+\label{fig:#1}
+\end{figure}
+}
+
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}

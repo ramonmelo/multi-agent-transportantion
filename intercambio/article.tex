@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+
+\IEEEoverridecommandlockouts                % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+% The following packages can be found on http:\\www.ctan.org
+\usepackage{yaacro}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{array}
+% \usepackage{subfigure}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+% \usepackage{subfigure} %% depracated %%
+\usepackage{amsmath,amssymb}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% \usepackage{multicol}
+
+\graphicspath{{./figures/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+
+\title{\LARGE \bf
+Platform for Communication and Coordination of Agents using the MAVLink Protocol
+}
+
+\newcommand{\aand}{\hspace{.6cm}}
+
+% \begin{acgroupdef}[list=acronimos]
+%   \acdef{CNPq}{Conselho Nacional de Desenvolvimento Científico e Tecnológico}
+%   \acdef{CAPES}{Coordenação de Aperfeiçoamento de Pessoal de Nível Superior}
+%   \acdef{FAPEMIG}{Fundação de Amparo ? Pesquisa do Estado de Minas Gerais}
+%   \acdef{FUCAPI}{Fundação Centro de Análise, Pesquisa e Inovação Tecnológica}
+% \end{acgroupdef}
+
+% \author{Ramon Soares de Melo
+   % \thanks{Developed with the support of CNPq, CAPES and FAPEMIG.}
+   %  \thanks{$^{1}$The authors are with the Computer Vision and Robotics Laboratory (VeRLab), Computer Science Department, Universidade Federal de Minas Gerais, MG, Brazil. E-mails: {\tt\small \{ramonmelo,doug,mario\}@dcc.ufmg.br}.}
+% }%
+
+\author{
+    \authorblockN{Ramon Soares de Melo and Arturo César Alvarez Cea}
+    \authorblockA{Universidade Federal de Minas Gerais, University of Santiago de Chile
+    \\ramonmelo@dcc.ufmg.br, arturo.alvarez@usach.cl}
+}
+
+\newtheorem{definition}{Problem}[section]
+
+\makeatletter
+\newcommand{\todo}[1]{{\color{red}\textbf{{\large @TODO\@ifempty{#1}{}{: }}#1}}}
+\makeatother
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\input{defs}
+\input{commands}
+
+\input{01_introduction}
+% \input{02_related-work}
+% \input{03_problem-statement}
+\input{04_methodology}
+\input{05_experiments}
+\input{06_conclusion}
+
+\section{Acknowledgment} % (fold)
+\label{sec:acknowledgment}
+
+I would like to thank the opportunity to have participated in research at the University of Santiago de Chile, to teachers Arturo Alvarez Cea and Gonzalo Acuna, by the knowledge exchange, and SISAR Ltda (www.sisar.cl) for providing the robots used during the experiments.
+They were moments of learning and exchange of knowledge that have been and will be shared by both sides in future research to come.
+
+% section acknowledgment (end)
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+
+\end{document}

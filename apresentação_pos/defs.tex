@@ -1,0 +1,122 @@
+
+\newcommand{\mrs}{MRS}
+\newcommand{\environment}{\ensuremath{\mathbb{R}^3}}
+
+% Shortcut definitions
+
+\newcommand{\set}[1]{\ensuremath{\boldsymbol{\mathcal{#1}}}}
+\newcommand{\setitem}[2]{\ensuremath{#1_{#2}}}
+\newcommand{\setlist}[3]{#1\ $=$\ \{\setitem{#2}{1}, \setitem{#2}{2}, ..., \setitem{#2}{#3}\}}
+
+\newcommand{\robotset}{\set{R}} % conjunto de robôs
+\newcommand{\robotsetqt}{\ensuremath{k}}
+\newcommand{\robot}[1]{\setitem{r}{#1}}
+\newcommand{\robotlist}{\setlist{\robotset}{r}{\robotsetqt}}
+
+\newcommand{\obstacleset}{\set{B}} % conjunto de obstáculos
+\newcommand{\obstaclesetqt}{\ensuremath{x}}
+\newcommand{\obstacle}[1]{\setitem{b}{#1}}
+\newcommand{\obstaclelist}{\setlist{\obstacleset}{b}{\obstaclesetqt}}
+
+\newcommand{\objectset}{\set{O}} % conjunto de objetos
+\newcommand{\objectsetqt}{\ensuremath{y}}
+\newcommand{\object}[1]{\setitem{o}{#1}}
+\newcommand{\objectlist}{\setlist{\objectset}{o}{\objectsetqt}}
+
+\newcommand{\planset}{\set{P}} % plano
+\newcommand{\plansetqt}{\ensuremath{q}}
+\newcommand{\plan}[1]{\setitem{n}{#1}}
+\newcommand{\planlist}{\setlist{\planset}{n}{\plansetqt}}
+
+\newcommand{\robotplanset}{\set{RP}} % conjunto de planos
+\newcommand{\robotplansetqt}{\ensuremath{j}}
+\newcommand{\robotplan}[1]{\setitem{rp}{#1}}
+\newcommand{\robotplanlist}{\setlist{\robotplanset}{rp}{\robotplansetqt}}
+
+\newcommand{\executionplanset}{\set{EP}} % conjunto de planos
+\newcommand{\executionplansetqt}{\ensuremath{h}}
+\newcommand{\executionplan}[1]{\setitem{ep}{#1}}
+\newcommand{\executionplanlist}{\setlist{\executionplanset}{ep}{\executionplansetqt}}
+\newcommand{\executionplanname}{\emph{Execution Plan}}
+\newcommand{\executionplansetnotation}{\ensuremath{\executionplanset \subset \robotplanset}}
+
+\newcommand{\executionplanminset}{\ensuremath{\executionplanset{*}}} % conjunto com custo minimo de segmentos
+
+\newcommand{\segmentset}{\set{S}} % conjunto de segmentos
+\newcommand{\segmentsetqt}{\ensuremath{e}}
+\newcommand{\segment}[1]{\setitem{s}{#1}}
+\newcommand{\segmentlist}{\setlist{\segmentset}{s}{\segmentsetqt}}
+
+\newcommand{\segmentpointset}{\ensuremath{\set{S}_p}} % conjunto de pontos de segmentação
+\newcommand{\segmentpointsetqt}{\ensuremath{z}}
+\newcommand{\segmentpoint}[1]{\setitem{sp}{#1}}
+\newcommand{\segmentpointfirst}[1]{\ensuremath{\segmentpoint{#1}^1}}
+\newcommand{\segmentpointsecond}[1]{\ensuremath{\segmentpoint{#1}^2}}
+
+\newcommand{\segmentpointlist}{\setlist{\segmentpointset}{sp}{\segmentpointsetqt}}
+
+\newcommand{\typeland}{ground}
+\newcommand{\typeaerial}{aerial}
+\newcommand{\typeset}{\set{T}} % conjunto de tipos de movimentação
+\newcommand{\typelist}{\ensuremath{\typeset=\ \{}\typeland, \typeaerial\ensuremath{\}}}
+\newcommand{\type}[1]{\setitem{t}{#1}}
+
+\newcommand{\plantypestart}{initial}
+\newcommand{\plantypetransition}{transition}
+\newcommand{\plantypemove}{movement}
+\newcommand{\plantypeset}{\set{TP}} % conjunto de tipos de plano
+\newcommand{\plantypelist}{\ensuremath{\plantypeset=\ \{}\plantypestart, \plantypetransition, \plantypemove\ensuremath{\}}}
+\newcommand{\plantype}[1]{\setitem{tp}{#1}}
+
+\newcommand{\movementtypepremove}{pre-transport}
+\newcommand{\movementtypemove}{transport}
+\newcommand{\movementtypeset}{\set{T_m}} % conjunto de tipos de plano
+\newcommand{\movementtypelist}{\ensuremath{\movementtypeset=\ \{}\movementtypepremove, \movementtypemove\ensuremath{\}}}
+\newcommand{\movementtype}[1]{\setitem{tm}{#1}}
+
+\newcommand{\tokenset}{\set{TO}}
+\newcommand{\tokensetqt}{\ensuremath{u}}
+\newcommand{\tokeni}[1]{\setitem{to}{#1}}
+\newcommand{\token}{\emph{token}}
+\newcommand{\tokenlist}{\setlist{\tokenset}{to}{\tokensetqt}}
+
+\newcommand{\workspace2}{\ensuremath{\boldsymbol{\mathcal{W}}}} % àrea de trabalho
+\newcommand{\workspacecell}{\ensuremath{\boldsymbol{\mathcal{c}}}} % àrea de trabalho
+
+\newcommand{\allocationgraph}{\ensuremath{\mathcal{AG}}}
+\newcommand{\allocationgraphcompress}{\ensuremath{\mathcal{AG}_c}}
+
+\newcommand{\currentstate}{\ensuremath{S}}
+\newcommand{\nextstate}{\ensuremath{S'}}
+\newcommand{\originstate}{\ensuremath{S_o}}
+\newcommand{\targetstate}{\ensuremath{S_d}}
+\newcommand{\robotstate}{\ensuremath{S_r}}
+
+\newcommand{\robotinitialstate}{\ensuremath{I}}
+\newcommand{\robotinitialstatei}[1]{\ensuremath{I_{#1}}}
+
+\newcommand{\celldimension}{\ensuremath{d}}
+\newcommand{\deslocationfactor}{\ensuremath{l}}
+
+\newcommand{\movementset}{\set{M}}
+\newcommand{\movementslist}{\ensuremath{\movementset=\ \{}left, right, front, back, up, down\ensuremath{\}}}
+\newcommand{\movementaction}{\ensuremath{a_i}}
+
+% Funções
+
+\newcommand{\utilityfunction}{\ensuremath{\Theta}}
+\newcommand{\utilityplanfunction}{\ensuremath{\utilityfunction_{p}}}
+\newcommand{\utilitytotalfunction}{\ensuremath{\utilityfunction_{t}}}
+\newcommand{\distancefunction}{\ensuremath{\Delta}}
+\newcommand{\timefunction}{\ensuremath{\Upsilon}}
+\newcommand{\energyfunction}{\ensuremath{\Psi}}
+
+% Planejamento
+
+\newcommand{\fringe}{\set{F}}
+\newcommand{\searchednodes}{\set{SN}}
+\newcommand{\node}{\ensuremath{n}}
+\newcommand{\nodeitem}[1]{\ensuremath{\node_{#1}}}
+\newcommand{\nodeparent}{\emph{NodePai}}
+\newcommand{\nodeutility}{\ensuremath{\omega}}
+\newcommand{\nodedata}{\ensuremath{\{}state (\currentstate), action (\movementaction), utility (\nodeutility), agent's position (\robotstate), type (\type{i})\ensuremath{\}}}

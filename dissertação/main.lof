@@ -1,0 +1,41 @@
+\select@language {brazil}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Aplica\IeC {\c c}\IeC {\~o}es de Rob\IeC {\^o}s para Transporte e Manipula\IeC {\c c}\IeC {\~a}o de Objetos}}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Uma solu\IeC {\c c}\IeC {\~a}o do problema de transporte de objetos}}{6}{figure.caption.7}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Conjunto das principais t\IeC {\'e}cnicas n\IeC {\~a}o-pre\IeC {\^e}nsil utilizadas para o transporte de objetos.\relax }}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Modelos de disposi\IeC {\c c}\IeC {\~a}o de agentes para o transporte de objetos}}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Planos de movimenta\IeC {\c c}\IeC {\~a}o de um objeto a ser transportado}}{14}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Transporte realizado por um quadrotor que utiliza uma garra para segurar o objeto}}{18}{figure.caption.11}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama geral da Metodologia do trabalho}}{25}{figure.caption.13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Planejamento e Segmenta\IeC {\c c}\IeC {\~a}o do plano de movimenta\IeC {\c c}\IeC {\~a}o de um objeto}}{35}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Planos de movimenta\IeC {\c c}\IeC {\~a}o dos agentes}}{37}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ambiente de exemplo com 2 objetos e 3 rob\IeC {\^o}s}}{40}{figure.caption.17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Exemplo de Coordena\IeC {\c c}\IeC {\~a}o entre 2 Agentes durante o transporte de objetos}}{45}{figure.caption.18}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Mapa de exemplo do transporte de um objeto por um \IeC {\'u}nico agente}}{48}{figure.caption.19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cen\IeC {\'a}rios utilizados nos experimentos relacionados \IeC {\`a} complexidade do ambiente}}{50}{figure.caption.20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Gr\IeC {\'a}fico do deslocamento do objeto em ambiente com diferentes complexidades. S\IeC {\~a}o exemplificados tr\IeC {\^e}s amostras onde os agentes s\IeC {\~a}o dispostos em posi\IeC {\c c}\IeC {\~o}es diferentes.\relax }}{51}{figure.caption.21}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Gr\IeC {\'a}fico de deslocamento dos agentes em cen\IeC {\'a}rios com variados graus de restri\IeC {\c c}\IeC {\~a}o de movimentos. Cada amostra demonstrada, representa cen\IeC {\'a}rios com agentes em posi\IeC {\c c}\IeC {\~o}es distintas.\relax }}{51}{figure.caption.22}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Gr\IeC {\'a}fico do tempo m\IeC {\'e}dio necess\IeC {\'a}rio para o planejamento total do sistema}}{51}{figure.caption.23}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mapa utilizado nos testes de deslocamento e tempo de planejamento dos agentes}}{52}{figure.caption.24}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Deslocamento de um agente sem a aplica\IeC {\c c}\IeC {\~a}o da penaliza\IeC {\c c}\IeC {\~a}o de mudan\IeC {\c c}a de dire\IeC {\c c}\IeC {\~a}o}}{53}{figure.caption.25}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Deslocamento de um agente utilizando a penaliza\IeC {\c c}\IeC {\~a}o de mudan\IeC {\c c}a de dire\IeC {\c c}\IeC {\~a}o}}{54}{figure.caption.26}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Deslocamento total dos agentes com a aplica\IeC {\c c}\IeC {\~a}o da penalidade de mudan\IeC {\c c}a de dire\IeC {\c c}\IeC {\~a}o.\relax }}{54}{figure.caption.27}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Tempo de planejamento dos agentes sem a aplica\IeC {\c c}\IeC {\~a}o da penalidade de mudan\IeC {\c c}a na dire\IeC {\c c}\IeC {\~a}o.\relax }}{55}{figure.caption.28}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Tempo de planejamento dos agentes com a aplica\IeC {\c c}\IeC {\~a}o da penalidade de mudan\IeC {\c c}a na dire\IeC {\c c}\IeC {\~a}o.\relax }}{55}{figure.caption.29}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Exemplos de planos de movimenta\IeC {\c c}\IeC {\~a}o de um objeto com diferentes pesos na fun\IeC {\c c}\IeC {\~a}o de utilidade}}{57}{figure.caption.32}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Resultado do transporte de 3 objetos por um agente}}{58}{figure.caption.33}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Mapa utilizado nos testes sequencial e oportunista}}{59}{figure.caption.34}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Deslocamento do rob\IeC {\^o} mediante nos transportes sequencial e oportunista}}{59}{figure.caption.35}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Tempo de planejamento do agente nos transporte sequencial e oportunista}}{60}{figure.caption.36}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Ambientes de trabalho utilizados durante os experimentos simulados.\relax }}{61}{figure.caption.37}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Exemplo de transporte por dois agentes em um ambiente simulado.\relax }}{62}{figure.caption.38}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Exemplo de transporte utilizando um agente terrestre e um a\IeC {\'e}reo.\relax }}{63}{figure.caption.39}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Plataforma rob\IeC {\'o}tica ePuck utilizada durante os experimentos reais.\relax }}{67}{figure.caption.40}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o do ambiente de trabalho no experimento real.\relax }}{67}{figure.caption.41}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Exemplo de transporte de um objeto utilizando tr\IeC {\^e}s agentes reais.\relax }}{68}{figure.caption.42}
+\addvspace {10pt}

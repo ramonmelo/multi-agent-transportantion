@@ -1,0 +1,9 @@
+\contentsline {algorithm}{\numberline {3.1}{\ignorespaces AStar}}{31}{algorithm.3.1}
+\contentsline {algorithm}{\numberline {3.2}{\ignorespaces ExpansionAlgorithm}}{32}{algorithm.3.2}
+\contentsline {algorithm}{\numberline {3.3}{\ignorespaces SegmentPointSetCreation}}{34}{algorithm.3.3}
+\contentsline {algorithm}{\numberline {3.4}{\ignorespaces SegmentSetCreation}}{34}{algorithm.3.4}
+\contentsline {algorithm}{\numberline {3.5}{\ignorespaces TaskAllocationProcess}}{38}{algorithm.3.5}
+\contentsline {algorithm}{\numberline {3.6}{\ignorespaces CoordinationProcess}}{42}{algorithm.3.6}
+\contentsline {algorithm}{\numberline {3.7}{\ignorespaces ResponseTokenProcess}}{43}{algorithm.3.7}
+\contentsline {algorithm}{\numberline {4.1}{\ignorespaces AerialVelocityController(goal\_pose, last\_cmd, vertical\_lim, P, I)\relax }}{64}{algorithm.4.1}
+\contentsline {algorithm}{\numberline {4.2}{\ignorespaces AerialVelocityController(goal\_pose, last\_cmd, angular\_lim, P, I)\relax }}{65}{algorithm.4.2}

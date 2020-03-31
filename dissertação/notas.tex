@@ -1,0 +1,171 @@
+% Outras notas
+
+# Aplicações de multiplos robôs
+
+- Vigilância
+- Reconhecimento
+- Busca e Resgate
+- Mapeamento
+- Detecção e Rastramento de alvos
+- Transporte de objetos
+- Construção de estruturas
+
+# Desafios
+
+- Coordenação
+- Falha na comunicação
+- Incerteza da leitura de sensores
+
+# Vantagens
+
+- Eficiência
+- Tolerância a falhas
+
+#######################
+
+Diagrama
+
+# Path Planning
+	- Occupancy Grid
+	- Frontier Expansion
+	- Probabilistic Road Map
+# Cooperative Control
+	- Reative
+	- Centralized
+	- Decentralized
+	- Biological Inspired Decentralized
+	- Hierarchical Architecture
+	- Alpha Beta Coordination (Switched)
+# Mapping
+	- Semantic Map
+	- Discrete Map
+	- Topological Map
+
+# Simultaneous task and motion planning (STAMP)
+# Simultaneous task allocation and path planning
+# Simultaneous Task Allocation and Motion Coordination (STAMC)
+
+## Trabalhos Relacionados
+
+Coordenação de Multi-Robôs
+	Planejamento de Caminhos
+		Grade de Ocupação					GO
+		Expansão de Fronteira			EF
+		Campos Potenciais					CP
+		Grafo de Visibilidade			GVi
+		Grafo de Voronoi					GVo
+	Controle Cooperativo
+		Comportamental - Behavior	Bh
+		Reativo										Re
+		Centralizado							Ce
+		Descentralizado 					De
+		Biologicamente Inspirado	BI
+		Arquitetura Hierarquica		Hi
+		AlphaBeta									AB
+	Mapeamento
+		Mapa Semântico						MS
+		Mapa Topológico						MT
+		Discreto ( matriz )				Di
+	Alocação de Tarefas
+		Leilão										Le
+
+Coordenação de Multi-Robôs
+	Planejamento de Caminhos
+		Campos Potenciais
+		Baseado em Grafo
+			Grafo de Visibilidade
+			Grafo de Voronoi
+	Controle Cooperativo
+		Comportamental
+		Baseado em Autonomia de Desição
+			Centralizado
+			Descentralizado
+		Biologicamente Inspirado
+		AlphaBeta
+	Mapeamento
+		Baseado em Grafo
+			Mapa Semântico
+			Mapa Topológico
+		Baseado em Matriz
+			Mapa Discreto
+			Matriz de Ocupação
+
+#####################
+
+Considerações
+
+# Estado final do objeto será assinalado considerando somente sua posição.
+
+# Os agentes serão capazes de realizar o transporte com no máximo 2 agentes o realizando ao mesmo tempo.
+
+# A localização de todos as partes envolvidas no transporte serão conhecidas:
+	- Agentes
+	- Objetos
+	- Obstáculos
+
+# Não existirão outros agentes no ambiente se não aqueles que estão participando do transporte.
+
+# Os objetos dispostos no ambientes estarão fixos e não se moverão durante o transporte.
+
+##################################
+
+Arquitetura do Sistema
+
+Classes Constituintes
+
+Controlador do Agente Terrestre
+	- Controlador Local
+	- Controlador Global
+
+Planejador Nautilus
+	- A*
+	- PRM
+		- Uniform Anchor Distribution
+		- A* on graph
+	- RRT
+
+Controlador do Planejamento do Objeto
+	- Planejamento do Trajeto do Objeto
+	- Planejamento dos pontos de movimentação do robo
+
+Alocador de Tarefas
+	- Função de Alocação
+		- Distancia entre o agente e o ponto de movimentação
+		- Tipo de agente
+		- Tipo de transporte
+
+Controlador da Simulação
+	- Deploy dos Agentes
+	- Inicialização do Mundo
+		- Obstaculos
+		- Objeto
+
+Sistema de Localização
+	- Agentes
+	- Objeto
+	- Obstaculos
+
+
+
+% Trabalhos Relacionados
+
+\cite{Parra-Gonzalez2011}
+
+Muito parecido, pois também foca o planejamento do objeto e procura diminuir a quantidade de vezes que os agentes mudam de posição para empurrar o objeto
+
+
+\cite{Hart1968} A* Algoritm reference
+
+
+% Ideias para Experimentos Quantitativos
+
+- Usar varios cenarios diferentes, com diferentes tamanhos de áreas livres para movimentação (algo como uma percentagem livre)
+- Usar tamanhos diferentes de células
+-
+
+Avaliar:
+
+- Numero de reconfigurações dos robos, ou sejam, quantas vezes mudam de lado para empurar o objeto
+- O tempo necessário para achar a solução, custo computacional em tempo para execução do algoritmo.
+- Custo do transporte utilizando os diferentes metodos, ou quantidade de robos
+-

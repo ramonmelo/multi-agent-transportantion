@@ -1,0 +1,42 @@
+A aplicação de sistemas autônomos pode ser observada em diversos cenários, como em atividades de vigilância, busca e resgate, rastreamento e mapeamento, além destas, o transporte e manipulação de objetos é um tipo de missão que tem ganhado atenção por parte de pesquisadores e grandes empresas, principalmente por acrescentar à atividade características como precisão, agilidade e controle, além de poder garantir melhoras de eficiência geral do sistema.
+
+Neste trabalho é demonstrado um conjunto de técnicas utilizadas para a coordenação de uma equipe de agente robóticos heterogêneos, tendo como missão o transporte de objetos utilizando suas capacidades físicas e computacionais.
+O processo de transporte e manipulação é tratado em três etapas: (i) planejamento de caminhos para os objetos, na qual um plano de movimentação do objeto é criado baseado em métricas de uso energético e tempo; (ii) planejamento e alocação de tarefas entre os agentes disponíveis para o transporte, realizando a distribuição de tarefas de modo a minimizar o custo total do sistema; (iii) coordenação e execução, na qual os agentes realizam o transporte de forma sincronizada.
+
+Foram executados experimentos quantitativos, demonstrando a efetividade do método avaliado em diversos cenários distintos, além de testes simulados e reais, que ilustram a manipulação dos objetos por agentes robóticos propriamente ditos.
+Desta maneira, é demonstrado uma metodologia capaz de executar de forma completa a missão de transporte, aprimorando-a através do uso de agentes inteligentes.
+
+% A aplicação de sistemas autônomos pode ser observada em diversos cenários atualmente, como em atividades de vigilância, busca e resgate, rastreamento e mapeamento.
+% Além destas, é possível destacar o uso de robôs para o transporte e manipulação de objetos, agregando características como precisão, agilidade e controle, além de garantir uma melhor eficiência do sistema
+
+
+% A aplicação de sistemas autônomos pode ser observada em diversos cenários, como atividades de vigilância, busca e resgate, rastreamento, mapeamento, dentre estes, o transporte e manipulação de objetos é uma dos que tem sido mais exploradas, principalmente por acrescentarem a atividade características como precisão, pontualidade, agilidade, controle, além de poder garantir uma melhor eficiência e eficácia.
+
+% % Apesar de robôs em alguns casos ainda não demonstrarem a mesma destreza dos humanos, sua utilização é mais indicada para ambiente hostís, como locais com fogo e/ou fumaça, grandes profundidades no oceano e áreas com contaminação nuclear, por exemplo.
+% % Além destes casos, também é possível observar seu uso em ambientes residenciais, onde podem tratar de tarefas domésticas, como controlar medicamentos ou a limpeza, além da assistência a idosos ou paciente com dificuldade de locomoção.
+
+% % \section{Problema} % (fold)
+
+% Este trabalho tem por objetivo demonstrar uma técnica que apresente soluções para questões decorrentes do uso de uma equipe de agentes robóticos, tendo como missão o transporte de objetos utilizando de suas capacidades físicas e computacionais.
+% Formalmente, dado um ambiente definido em um espaço euclidiano \environment, denominado $\workspace \subset \environment$, como área de trabalho, temos neste, os conjuntos (i) \objectset\ descrevendo todos os objetos que devem ser transportados, (ii) \obstacleset\ com os obstáculos presentes no ambiente, e (iii) \robotset\ o conjunto de agentes responsáveis por realizar a tarefa de transporte.
+
+% % Metodologia
+
+% O processo de transporte de objetos envolve diversas etapas que são estudadas e tratadas neste trabalho, são elas: (i) modelagem do ambiente de trabalho, (ii) planejamento (iii) alocação de tarafas e (iv) coordenação e executação.
+% Diferente de outros trabalhos que descrevem uma solução para a manipulação de objetos, focados principalmente na trajetória executada pelos agentes, neste, o plano de movimentação do objeto é utilizado como guia para as demais fases.
+% Além disto, uma função de utilidade (\utilityfunction) que engloba dimensões como tempo de deslocamento, energia gasta e distância até o destino, é utilizada para mensurar a qualidade dos planos criados, e assim assegurar que a melhor estratégia seja executada.
+
+% Neste sentido, baseado nas capacidades de transporte dos agentes (empurrar, elevar, etc) do conjunto \robotset, planos de transporte são criados para os objetos do conjunto \objectset, considerando a função de utilidade \utilityfunction e o ambiente \workspace.
+% Munido destes planos de movimentação, são criados planos similares, porém para os agentes, podendo classificados em dois tipos: (i) preparação - no qual o agente se aproxima do objeto a ser transportado, (ii) transporte - onde o objeto é transportado.
+
+% Os planos gerados para os agentes podem possuir valores de utilidade diferentes, provenientes das diferentes capacidades dos mesmos, como o tipo de transporte realizado, ou a distância que o mesmo se encontra do objeto, por exemplo.
+% A fim de selecionar os melhores planos para realizar o transporte e alocar dentre os agentes os trajetos a serem realizados, estes são organizados em forma de um grafo direcionado, criando uma interligação dentre todos os planos.
+% Neste grafo é aplicado o algoritmo de \emph{Kruskal}, de modo a gerar um grafo com somente as arestas (planos) de melhor utilidade, tendo por consequência, a alocação de tarefas entre os agentes mais aptos para executar o transporte.
+
+% A coordenação dos agentes para realizaçãos de seus respectivos planos acontece mediante a troca de \emph{tokens} entre os mesmos. Um \emph{token} representa uma sinalização que um determinado tipo (preparação, transporte) de plano pode ser executado.
+% Deste modo, é determinado que podem existir vários \emph{tokens} para o tipo preparação, porém, somente um (1) do tipo transporte, assegurando que agentes disponíveis cumpram as fases de preparação, e o agente responsável pelo transporte o execute sem que outros interfiram no mesmo.
+% Este processo é repetido até que todos os objetos sejam transportados.
+
+% Mediante estes passos, é possivel realizar o transporte de objetos, considerando as capacidades de um conjunto heterogêneo de agentes visando maximizar a utilidade do sistema ponderando dimensões que tem direta influênica na qualidade da tarefa desempenhada.
+
+\keywords{Transporte Cooperativo, Manipulação de Objetos, Alocação de Tarefas}

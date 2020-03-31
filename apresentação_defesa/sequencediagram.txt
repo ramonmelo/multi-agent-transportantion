@@ -1,0 +1,25 @@
+title Alocação de Tarefas
+
+opt Cálculo das Utilidades
+   note left of Robo 1
+      Cria lista de objetos
+   end note
+
+   note left of Robo 1
+      Planejamento caminhos
+   end note
+end
+
+opt Alocação de Tarefas
+   Robo 1->Robo 2: Utilidades
+   Robo 1->Robo 3: Utilidades
+   Robo 2->Robo 1: Utilidades
+   Robo 3->Robo 1: Utilidades
+   note left of Robo 1: Executa Algoritmo Húngaro
+   note left of Robo 1: Salva lista de tarefas
+end
+
+opt Sincronização
+   Robo 1->Robo 2: Aguardando
+   Robo 1->Robo 3: Aguardando
+end

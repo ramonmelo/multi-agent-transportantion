@@ -1,0 +1,86 @@
+\documentclass[msc,twoside]{ppgccufmg}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{type1ec}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsfonts}
+\usepackage[cmex10]{amsmath}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[a4paper,
+  portuguese,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  linktocpage,
+  colorlinks,
+  citecolor=black,
+  urlcolor=black,
+  linkcolor=black,
+  filecolor=black,
+  ]{hyperref}
+\usepackage[square]{natbib}
+\usepackage{todonotes}
+\usepackage{rotating}
+\usepackage[chapter]{algorithm}
+\usepackage{algorithmic}
+
+% \makeatletter
+% \renewcommand*{\ALG@name}{Algoritmo}
+% \renewcommand{\ALG@name}{Algoritmo}
+% \renewcommand{\listalgorithmname}{Lista de Algoritmos}
+% \makeatother
+
+\usepackage[toc, nonumberlist, sort=def]{glossaries}
+\newglossary{acro}{acro}{sb2}{Lista de Acrônimos}
+\newglossary{symb}{symb}{sb3}{Lista de Símbolos}
+\newglossary{symbh}{symbh}{sb4}{Lista de Símbolos}
+
+\makeglossaries
+
+\begin{document}
+
+\input{99_commands}
+\input{99_defs}
+\input{99_glossary}
+
+\ppgccufmg{
+  title={Alocação de Tarefas para Transporte de Objetos com Robôs Heterogêneos},
+  authorrev={Melo, Ramon Soares de},
+  cutter={M528a},
+  cdu={519.6*82.10 (043)},
+  university={Universidade Federal de Minas Gerais - Departamento de Ciência da Computação},
+  course={Ciência da Computação},
+  address={Belo Horizonte},
+  date={2015-08},
+  keywords={Computação - Teses, Robôs - Movimento - Teses, Robótica - Teses, Materiais - Manuseio.},
+  advisor={Douglas Guimarães Macharet},
+  coadvisor={Mario Fernando Montenegro Campos},
+  approval=[-2.5cm][1]{aceitacao.jpg},
+  abstract={Resumo}{00_resumo},
+  abstract=[english]{Abstract}{00_abstract},
+  %abstract={Resumo Estendido}{resumoest},
+%   %dedication={dedicatoria},
+%   %ack={agradecimentos},
+% %  ack=[Acknowledgments]{ack},
+%   % epigraphtext={A verdade ?o contr?io da mentira, \\e a mentira ?o oposto da verdade.}{Autor desconhecido},
+  indexkeys={1. Computação -- Teses. 2. Robôs -- Movimento -- Teses. 3. Robótica -- Teses. 4. Materiais -- Manuseio. I. Orientador. II. Coorientador. III. Título.},
+  beforetoc={\input{00_list_definitions.tex}}
+}
+
+% 2.-- Robôs -- Movimento -- Teses 3.Robotica ­Teses. 4. Materiais ­ Manuseio. I. Orientador. II.  Coorientador.  III. Título.
+
+\input{01_introducao}
+\input{02_trabalhos_relacionados}
+\input{03_metodologia}
+\input{04_experimentos}
+\input{05_conclusao}
+
+\ppgccbibliography{references}
+
+% \input{99_apendices}x
+% \input{99_anexos}
+
+\end{document}

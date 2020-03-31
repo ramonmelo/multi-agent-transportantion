@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+
+\IEEEoverridecommandlockouts                % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+% The following packages can be found on http:\\www.ctan.org
+\usepackage{yaacro}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+% \usepackage{subfigure} %% depracated %%
+\usepackage{amsmath,amssymb}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{microtype}
+\graphicspath{{./figures/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+
+\title{\LARGE \bf
+Collaborative Object Transportation using Heterogeneous Robots
+}
+
+%\author{ \parbox{3 in}{\centering Huibert Kwakernaak*
+%         \thanks{*Use the $\backslash$thanks command to put information here}\\
+%         Faculty of Electrical Engineering, Mathematics and Computer Science\\
+%         University of Twente\\
+%         7500 AE Enschede, The Netherlands\\
+%         {\tt\small h.kwakernaak@autsubmit.com}}
+%         \hspace*{ 0.5 in}
+%         \parbox{3 in}{ \centering Pradeep Misra**
+%         \thanks{**The footnote marks may be inserted manually}\\
+%        Department of Electrical Engineering \\
+%         Wright State University\\
+%         Dayton, OH 45435, USA\\
+%         {\tt\small pmisra@cs.wright.edu}}
+%}
+
+% \author{Huibert Kwakernaak$^{1}$ and Pradeep Misra$^{2}$% <-this % stops a space
+% \thanks{*This work was not supported by any organization}% <-this % stops a space
+% \thanks{$^{1}$H. Kwakernaak is with Faculty of Electrical Engineering, Mathematics and Computer Science,
+%         University of Twente, 7500 AE Enschede, The Netherlands
+%         {\tt\small h.kwakernaak at papercept.net}}%
+% \thanks{$^{2}$P. Misra is with the Department of Electrical Engineering, Wright State University,
+%         Dayton, OH 45435, USA
+%         {\tt\small p.misra at ieee.org}}%
+% }
+
+\newcommand{\aand}{\hspace{.6cm}}
+%\renewcommand{\baselinestretch}{0.97}
+
+\author{Ramon S. Melo$^{1}$ \aand Douglas G. Macharet$^{1}$ \aand Mario F. M. Campos$^{1}$
+    \thanks{$^{1}$The authors are with the Computer Vision and Robotics Laboratory (VeRLab), Computer Science Department, Universidade Federal de Minas Gerais, MG, Brazil.
+    E-mails: {\tt\small \{ramon,doug,mario\}@dcc.ufmg.br}
+    }
+}%
+
+\newtheorem{definition}{Problem}[section]
+
+\makeatletter
+\newcommand{\todo}[1]{{\color{red}\textbf{{\large @TODO\@ifempty{#1}{}{: }}#1}}}
+\makeatother
+
+\begin{acgroupdef}[list=acronimos]
+
+  \acdef{CNPq}{Conselho Nacional de Desenvolvimento Científico e Tecnológico}
+  \acdef{CAPES}{Coordenação de Aperfeiçoamento de Pessoal de Nível Superior}
+  \acdef{FAPEMIG}{Fundação de Amparo �  Pesquisa do Estado de Minas Gerais}
+  \acdef{FUCAPI}{Fundação Centro de Análise, Pesquisa e Inovação Tecnológica}
+
+\end{acgroupdef}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\input{defs}
+\input{commands}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+  %
+  The use of multi-robot systems in many different contexts and applications has increased significantly in recent years. One of the main tasks focus on the transport of objects, which can be employed considering the simplest case of arbitrarily moving objects in the environment as well as in more complex scenarios, such as building structures. Despite being a relatively simple activity, many different challenges are still open. 
+  %
+  In this work we propose a complete methodology which encompasses all related stages of the problem (i.e. path planning, task allocation and control).
+  %
+  Numerous trials, in both simulated and real scenarios, were executed providing a thorough evaluation and validation of the methodology. 
+  %The experiments showed the effectiveness and flexibility of the technique in respect to the task needs, such as minimizing the execution time or used energy.
+  %
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{01_introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{02_related-work}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{03_problem-statement}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{04_methodology}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{05_experiments}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{06_conclusion}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{ACKNOWLEDGMENTS}
+
+Developed with support of \acs{CNPq}, \acs{CAPES} and \acs{FAPEMIG}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+
+\end{document}
+
+
+%%% Local Variables:
+%%% coding: latin-1
+%%% mode: latex
+%%% TeX-master: t
+%%% ispell-local-dictionary: "english"
+%%% End:

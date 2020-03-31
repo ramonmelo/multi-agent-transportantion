@@ -1,0 +1,70 @@
+TODO Documentação:
+
+ ☐ https://www.youtube.com/watch?v=BV2MIZna6PI
+
+Revisão da Introdução:
+ ✔ Adicionar Referencia para o Kiva @done (15-07-12 11:15)
+ ✔ Adicionar Referencia artigo Kumar de construção cooperativa @done (15-07-12 11:15)
+ ✔ Referencias das imagens @done (15-07-12 11:15)
+
+
+Revisão Trabalhos Relacionados:
+ ✔ Arrumar Referência para Da Costa @done (15-07-12 11:15)
+
+Metodologia:
+ ☐ Há uma penalização quando há mudança de sentido
+
+##################################################
+
+ ✔ Buscar por trabalhos que sejam: @done (15-08-04 22:26)
+   ✔ Fixo e prehensile @done (15-08-04 22:26)
+   ✔ Fixo e non-prehensile @done (15-08-04 22:26)
+   ✔ Movil e prehensile @done (15-08-04 22:26)
+   ✔ Movil e non-prehensile @done (15-08-04 22:26)
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ Introdução @done (15-07-02 10:24) @project(TODO Documentação)
+ ✔ Trabalhos Relacionados @done (15-07-02 10:23)
+ ✔ Tecnica para escolha da sequencia de transporte @done (15-07-02 10:23) @project(TODO Documentação)
+ ✔ Tecnica de coordenação de agente @done (15-07-02 10:23) @project(TODO Documentação)
+ ✔ Mostrar um comparativo entre estes trabalhos, o que eles tem de diferente em relação ao meu @done (15-07-02 10:23) @project(TODO Documentação)
+ ✔ Descrever trabalhos que são de alocação e coordenação em geral @done (15-07-02 10:23) @project(TODO Documentação)
+ ✔ Descrever trabalhos focados no transporte @done (15-07-02 10:23) @project(TODO Documentação)
+ ✔ Varios robos, varios objetos @done (15-06-26 15:49) @project(TODO Documentação)
+ ✔ Varios robos, um objeto @done (15-06-26 15:49) @project(TODO Documentação)
+ ✔ Um robo, varios objetos @done (15-06-26 15:49) @project(TODO Documentação)
+ ✔ Um robo, um objeto @done (15-06-26 15:49) @project(TODO Documentação)
+ ✔ Tecnica para planejamento de caminhos para robos e objetos @done (15-06-26 15:49) @project(TODO Documentação)
+ ✔ Organização do Trabalho @done (15-06-26 15:49) @project(TODO Documentação)
+ ✔ Contribuição @done (15-06-26 15:49) @project(TODO Documentação)
+ ✔ Usando varios robo @done (15-06-26 15:48) @project(TODO Documentação)
+ ✔ Usando somente um robo @done (15-06-26 15:48) @project(TODO Documentação)
+ ✔ Tipos de manipulação @done (15-06-26 15:48) @project(TODO Documentação)
+ ✔ Preensive @done (15-06-26 15:48) @project(TODO Documentação)
+ ✔ Porque fazer o transporte usando robos @done (15-06-26 15:48) @project(TODO Documentação)
+ ✔ Non-preensive @done (15-06-26 15:48) @project(TODO Documentação)
+ ✔ Descrever os problemas @done (15-06-26 15:48) @project(TODO Documentação)
+ ✔ Citar as diversas aplicações dos robos, em diversar áreas @done (15-06-24 12:10) @project(TODO Documentação)
+ ✔ Aplicação dos robos @done (15-06-24 12:10) @project(TODO Documentação)
+ ✔ Referência para algoritmo de Kruskal @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Quais informações são trocadas entre os agentes @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Planner dos Agentes @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Modulo de Coordenação @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Metodologia @done (15-04-09 10:44)
+ ✔ Explicar o calculo do grafico de custo de cada agente @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Explicar como os grafos são fundidos @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Explicar a eta de pre-move e move @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Descrição do algoritmo de planejamento @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Descrever o modulo de alocação de tarefas @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Como os agentes aceleram o transporte utilizando esta coordenação @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Como o grafo de menor custo é encontrado @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Como acontece a criação dos nós do grafo @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Como acontece a coordenação entre os agentes @done (15-04-09 10:44) @project(TODO Documentação)
+ ✔ Descrever elementos dos diagramas @done (15-01-13 01:09) @project(TODO Documentação)
+ ✔ Planner do Objeto @done (15-01-12 23:09) @project(TODO Documentação)
+ ✔ Quais suposições são consideradas @done (15-01-11 11:36) @project(TODO Documentação)
+ ✔ Descrever o planejamento do objeto em comparação ao planejamento dos agentes @done (15-01-11 11:36) @project(TODO Documentação)
+ ✔ Descrever o modulo de planejamento @done (15-01-11 11:36) @project(TODO Documentação)
+ ✔ Descrever a função de custo @done (15-01-11 11:36) @project(TODO Documentação)
+ ✔ Descrever a criação do mapa @done (15-01-11 11:36) @project(TODO Documentação)
